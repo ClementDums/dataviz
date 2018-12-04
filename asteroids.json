@@ -100,7 +100,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Adzhi-Bogdo stone",
+        "name": "Adzhi-Bogdo",
         "year": 1949,
         "class": "LL3-6",
         "mass": 910
@@ -190,22 +190,6 @@
         "coordinates": [
           8.38333,
           19.08333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Aire-sur-la-Lys",
-        "year": 1769,
-        "class": "Unknown",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.33333,
-          50.66667
         ]
       }
     },
@@ -318,22 +302,6 @@
         "coordinates": [
           4.08333,
           44.11667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Albareto",
-        "year": 1766,
-        "class": "L/LL4",
-        "mass": 2000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.01667,
-          44.65
         ]
       }
     },
@@ -612,7 +580,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Angra dos Reis stone",
+        "name": "Angra dos Reis",
         "year": 1869,
         "class": "Angrite",
         "mass": 1500
@@ -1188,38 +1156,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Barbotan",
-        "year": 1790,
-        "class": "H5",
-        "mass": 6400
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.05,
-          43.95
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Barcelona stone",
-        "year": 1704,
-        "class": "OC",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.16667,
-          41.36667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Barea",
         "year": 1842,
         "class": "Mesosiderite-A1",
@@ -1486,22 +1422,6 @@
         "coordinates": [
           -64.86667,
           -32.33333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Benares a",
-        "year": 1798,
-        "class": "LL4",
-        "mass": 3700
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          82.91667,
-          25.36667
         ]
       }
     },
@@ -1908,22 +1828,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bjelaja Zerkov",
-        "year": 1796,
-        "class": "H6",
-        "mass": 1850
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.16667,
-          49.78333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Bjurböle",
         "year": 1899,
         "class": "L/LL4",
@@ -2180,7 +2084,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Boumdeid 2003",
+        "name": "Boumdeid",
         "year": 2003,
         "class": "L6",
         "mass": 190
@@ -2196,7 +2100,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Boumdeid 2011",
+        "name": "Boumdeid",
         "year": 2011,
         "class": "L6",
         "mass": 3599
@@ -2740,22 +2644,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Castel Berardenga",
-        "year": 1791,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5,
-          43.35
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Castine",
         "year": 1848,
         "class": "L6",
@@ -2766,22 +2654,6 @@
         "coordinates": [
           -68.75,
           44.38333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Castrovillari",
-        "year": 1583,
-        "class": "Stone-uncl",
-        "mass": 15000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.2,
-          39.8
         ]
       }
     },
@@ -3030,7 +2902,7 @@
       "properties": {
         "name": "Chassigny",
         "year": 1815,
-        "class": "Martian chassignite",
+        "class": "Martian",
         "mass": 4000
       },
       "geometry": {
@@ -3332,7 +3204,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Colby Wisconsin",
+        "name": "Colby",
         "year": 1917,
         "class": "L6",
         "mass": 104000
@@ -3572,7 +3444,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Daniel s Kuil",
+        "name": "Daniels Kuil",
         "year": 1868,
         "class": "EL6",
         "mass": 1064
@@ -4116,7 +3988,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Dresden Ontario",
+        "name": "Dresden",
         "year": 1939,
         "class": "H6",
         "mass": 47700
@@ -4324,22 +4196,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Eichstädt",
-        "year": 1785,
-        "class": "H5",
-        "mass": 3000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.21667,
-          48.9
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Ekeby",
         "year": 1939,
         "class": "H4",
@@ -4436,22 +4292,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Elbogen",
-        "year": 1399,
-        "class": "Iron, IID",
-        "mass": 107000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.73333,
-          50.18333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Elenovka",
         "year": 1951,
         "class": "L5",
@@ -4510,22 +4350,6 @@
         "coordinates": [
           109.5,
           30.3
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ensisheim",
-        "year": 1491,
-        "class": "LL6",
-        "mass": 127000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.35,
-          47.86667
         ]
       }
     },
@@ -4932,7 +4756,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Frankfort stone",
+        "name": "Frankfort",
         "year": 1868,
         "class": "Howardite",
         "mass": 650
@@ -4974,22 +4798,6 @@
         "coordinates": [
           130.2,
           33.18333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fünen",
-        "year": 1654,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.33333,
-          55.33333
         ]
       }
     },
@@ -5044,7 +4852,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Galim a",
+        "name": "Galim",
         "year": 1952,
         "class": "LL6",
         "mass": 36.1
@@ -5060,7 +4868,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Galim b",
+        "name": "Galim",
         "year": 1952,
         "class": "EH3/4-an",
         "mass": 28
@@ -5892,22 +5700,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hatford",
-        "year": 1628,
-        "class": "Stone-uncl",
-        "mass": 29000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.51667,
-          51.65
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Haverö",
         "year": 1971,
         "class": "Ureilite",
@@ -6158,22 +5950,6 @@
         "coordinates": [
           -100.45,
           39.35
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hraschina",
-        "year": 1751,
-        "class": "Iron, IID",
-        "mass": 49000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.33333,
-          46.1
         ]
       }
     },
@@ -6542,22 +6318,6 @@
         "coordinates": [
           "",
           ""
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jalandhar",
-        "year": 1621,
-        "class": "Iron",
-        "mass": 1967
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75,
-          31
         ]
       }
     },
@@ -7108,7 +6868,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kandahar Afghanistan",
+        "name": "Kandahar",
         "year": 1959,
         "class": "L6",
         "mass": 299
@@ -7524,22 +7284,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kharkov",
-        "year": 1787,
-        "class": "L6",
-        "mass": 1500
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.075,
-          50.625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Kheragur",
         "year": 1860,
         "class": "L6",
@@ -7668,7 +7412,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kijima 1906",
+        "name": "Kijima",
         "year": 1906,
         "class": "Stone-uncl",
         "mass": 331
@@ -8868,22 +8612,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lucé",
-        "year": 1768,
-        "class": "L6",
-        "mass": 3500
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.48333,
-          47.85
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lumpkin",
         "year": 1869,
         "class": "L6",
@@ -8942,22 +8670,6 @@
         "coordinates": [
           27.7,
           61.2
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Luponnas",
-        "year": 1753,
-        "class": "H3-5",
-        "mass": 14000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5,
-          46.21667
         ]
       }
     },
@@ -9428,7 +9140,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Marion Iowa",
+        "name": "Marion",
         "year": 1847,
         "class": "L6",
         "mass": 28400
@@ -9550,22 +9262,6 @@
         "coordinates": [
           12.61667,
           48.13333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mauerkirchen",
-        "year": 1768,
-        "class": "L6",
-        "mass": 19000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.13333,
-          48.18333
         ]
       }
     },
@@ -9988,7 +9684,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Miller Arkansas",
+        "name": "Miller",
         "year": 1930,
         "class": "H5",
         "mass": 16700
@@ -9998,22 +9694,6 @@
         "coordinates": [
           -92.05,
           35.4
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Minamino",
-        "year": 1632,
-        "class": "L",
-        "mass": 1040
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.93333,
-          35.07833
         ]
       }
     },
@@ -10132,7 +9812,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Modoc 1905",
+        "name": "Modoc",
         "year": 1905,
         "class": "L6",
         "mass": 35000
@@ -10196,7 +9876,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Monahans 1998",
+        "name": "Monahans",
         "year": 1998,
         "class": "H5",
         "mass": 2587
@@ -10484,22 +10164,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mount Vaisi",
-        "year": 1637,
-        "class": "Stone-uncl",
-        "mass": 17000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.86667,
-          44.08333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Mtola",
         "year": 1944,
         "class": "Stone-uncl",
@@ -10526,22 +10190,6 @@
         "coordinates": [
           77.01667,
           12.63333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mulletiwu",
-        "year": 1795,
-        "class": "L",
-        "mass": 25.5
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          80.83333,
-          9.33333
         ]
       }
     },
@@ -10694,7 +10342,7 @@
       "properties": {
         "name": "Nakhla",
         "year": 1911,
-        "class": "Martian nakhlite",
+        "class": "Martian",
         "mass": 10000
       },
       "geometry": {
@@ -10830,22 +10478,6 @@
         "coordinates": [
           150.68889,
           -34.05
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Narni",
-        "year": 920,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.51667,
-          42.51667
         ]
       }
     },
@@ -11060,23 +10692,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nicorps",
-        "year": 1750,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.43333,
-          49.03333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Niger L6",
+        "name": "Niger",
         "year": 1967,
         "class": "L6",
         "mass": 3.3
@@ -11092,7 +10708,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Niger LL6",
+        "name": "Niger",
         "year": 1967,
         "class": "LL6",
         "mass": 3.3
@@ -11236,22 +10852,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nogata",
-        "year": 860,
-        "class": "L6",
-        "mass": 472
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.75,
-          33.725
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Nogoya",
         "year": 1879,
         "class": "CM2",
@@ -11326,22 +10926,6 @@
         "coordinates": [
           46,
           54.81667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Novy-Ergi",
-        "year": 1662,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.33333,
-          58.55
         ]
       }
     },
@@ -11524,22 +11108,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ogi",
-        "year": 1741,
-        "class": "H6",
-        "mass": 14360
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.2,
-          33.28333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Ohaba",
         "year": 1857,
         "class": "H5",
@@ -11636,7 +11204,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Oldenburg 1930",
+        "name": "Oldenburg",
         "year": 1930,
         "class": "L6",
         "mass": 16570
@@ -11646,22 +11214,6 @@
         "coordinates": [
           8.16667,
           52.95
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Oliva-Gandia",
-        "year": 1519,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.03333,
-          39
         ]
       }
     },
@@ -11758,22 +11310,6 @@
         "coordinates": [
           6.15,
           47.11667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ortenau",
-        "year": 1671,
-        "class": "Stone-uncl",
-        "mass": 4500
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8,
-          48.5
         ]
       }
     },
@@ -11934,22 +11470,6 @@
         "coordinates": [
           -5.86667,
           43.4
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Owrucz",
-        "year": 1775,
-        "class": "OC",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.83333,
-          51.33333
         ]
       }
     },
@@ -12308,7 +11828,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Pavlodar stone",
+        "name": "Pavlodar",
         "year": 1938,
         "class": "H5",
         "mass": 142.5
@@ -12548,23 +12068,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Pettiswood",
-        "year": 1779,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.33333,
-          53.53333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Phillips County stone",
+        "name": "Phillips County",
         "year": 1901,
         "class": "L6",
         "mass": 57900
@@ -12788,22 +12292,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ploschkovitz",
-        "year": 1723,
-        "class": "L5",
-        "mass": 39
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.11667,
-          50.53333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Pnompehn",
         "year": 1868,
         "class": "L6",
@@ -12894,22 +12382,6 @@
         "coordinates": [
           -103.295,
           34.175
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Portugal",
-        "year": 1796,
-        "class": "Stone-uncl",
-        "mass": 4500
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8,
-          38.5
         ]
       }
     },
@@ -13364,22 +12836,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rasgrad",
-        "year": 1740,
-        "class": "Stone-uncl",
-        "mass": 24700
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.53333,
-          43.5
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Ratyn",
         "year": 1880,
         "class": "Stone-uncl",
@@ -13620,22 +13076,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rivolta de Bassi",
-        "year": 1490,
-        "class": "Stone-uncl",
-        "mass": 103.3
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.51667,
-          45.48333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Rochester",
         "year": 1876,
         "class": "H6",
@@ -13678,22 +13118,6 @@
         "coordinates": [
           0.55,
           42.3
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rodach",
-        "year": 1775,
-        "class": "Stone-uncl",
-        "mass": 2900
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8,
-          50.35
         ]
       }
     },
@@ -13828,22 +13252,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sagan",
-        "year": 1636,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.88333,
-          51.53333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Saint-Sauveur",
         "year": 1914,
         "class": "EH5",
@@ -13902,22 +13310,6 @@
         "coordinates": [
           -122.96944,
           44.97917
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Salles",
-        "year": 1798,
-        "class": "L5",
-        "mass": 9000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.63333,
-          46.05
         ]
       }
     },
@@ -14068,7 +13460,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Santa Lucia 2008",
+        "name": "Santa Lucia",
         "year": 2008,
         "class": "L6",
         "mass": 4000
@@ -14110,22 +13502,6 @@
         "coordinates": [
           46.55,
           52.55
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sasagase",
-        "year": 1688,
-        "class": "H",
-        "mass": 695
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.78333,
-          34.71667
         ]
       }
     },
@@ -14190,22 +13566,6 @@
         "coordinates": [
           17.56667,
           49.23333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Schellin",
-        "year": 1715,
-        "class": "L",
-        "mass": 7000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.05,
-          53.35
         ]
       }
     },
@@ -14334,22 +13694,6 @@
         "coordinates": [
           79,
           22.25
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sena",
-        "year": 1773,
-        "class": "H4",
-        "mass": 4000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.05,
-          41.71667
         ]
       }
     },
@@ -14534,7 +13878,7 @@
       "properties": {
         "name": "Shergotty",
         "year": 1865,
-        "class": "Martian shergottite",
+        "class": "Martian",
         "mass": 5000
       },
       "geometry": {
@@ -14622,22 +13966,6 @@
         "coordinates": [
           90.16667,
           24.33333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Siena",
-        "year": 1794,
-        "class": "LL5",
-        "mass": 3700
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.6,
-          43.11667
         ]
       }
     },
@@ -15236,22 +14564,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Stolzenau",
-        "year": 1647,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.05,
-          52.53333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Stratford",
         "year": 1974,
         "class": "L6",
@@ -15278,22 +14590,6 @@
         "coordinates": [
           -3.25,
           56.58333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Stretchleigh",
-        "year": 1623,
-        "class": "Stone-uncl",
-        "mass": 10400
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.95,
-          50.38333
         ]
       }
     },
@@ -15454,22 +14750,6 @@
         "coordinates": [
           -86.2945,
           33.18836
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Tabor",
-        "year": 1753,
-        "class": "H5",
-        "mass": 7540
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.65,
-          49.4
         ]
       }
     },
@@ -15862,7 +15142,7 @@
       "properties": {
         "name": "Tissint",
         "year": 2011,
-        "class": "Martian shergottite",
+        "class": "Martian",
         "mass": 7000
       },
       "geometry": {
@@ -16580,22 +15860,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Vago",
-        "year": 1668,
-        "class": "H6",
-        "mass": 40
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.13333,
-          45.41667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Valdavur",
         "year": 1944,
         "class": "H6",
@@ -16622,22 +15886,6 @@
         "coordinates": [
           9.15,
           44.86667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Valdinoce",
-        "year": 1495,
-        "class": "Stone-uncl",
-        "mass": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.1,
-          44.06667
         ]
       }
     },
@@ -17012,7 +16260,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wethersfield 1971",
+        "name": "Wethersfield",
         "year": 1971,
         "class": "L6",
         "mass": 350
@@ -17028,7 +16276,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wethersfield 1982",
+        "name": "Wethersfield",
         "year": 1982,
         "class": "L6",
         "mass": 2756
@@ -17134,22 +16382,6 @@
         "coordinates": [
           39,
           9
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Wold Cottage",
-        "year": 1795,
-        "class": "L6",
-        "mass": 25000
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.41333,
-          54.13667
         ]
       }
     },
@@ -17364,7 +16596,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Yorktown New York",
+        "name": "Yorktown",
         "year": 1869,
         "class": "L5",
         "mass": 250
@@ -17478,7 +16710,7 @@
       "properties": {
         "name": "Zagami",
         "year": 1962,
-        "class": "Martian shergottite",
+        "class": "Martian",
         "mass": 18000
       },
       "geometry": {

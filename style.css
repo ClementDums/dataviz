@@ -1,6 +1,58 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html, body {
+    line-height: 1;
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/***GLOBE STYLE***/
+
 .land {
-    fill: white;
-    opacity: .5;
+    fill: #e5ad16;
+    opacity: 1;
     stroke: #4f2291;
     stroke-opacity: 1;
 }
@@ -8,17 +60,17 @@
 .countries path {
     stroke: #4f2291;
     stroke-linejoin: round;
-    stroke-width:.5;
+    stroke-width: 1;
     fill: #4f2291;
     opacity: .1;
-    pointer-events:none;
+    pointer-events: none;
 }
 
 .lines path {
     fill: none;
     stroke: #4f2291;
     stroke-opacity: 0.3;
-    stroke-dasharray: 5,5;
+    stroke-dasharray: 5, 5;
 }
 
 circle {
@@ -28,8 +80,8 @@ circle {
 .graticule {
     fill: none;
     stroke: #4f2291;
-    stroke-width:.5;
-    opacity:.2;
+    stroke-width: .5;
+    opacity: .2;
 }
 
 .labels {
@@ -40,12 +92,286 @@ circle {
 }
 
 .noclicks {
-    pointer-events:none;
+    pointer-events: none;
 }
 
 .point {
-    opacity:.6;
+    opacity: .6;
     stroke-width: 2;
     cursor: pointer;
 
 }
+
+/*RANGE STYLE*/
+input[type=range] {
+    -webkit-appearance: none;
+    width: 500px;
+    margin: 7.3px 0;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 11.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: rgba(48, 113, 182, 0.78);
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.01), 0px 0px 0px rgba(13, 13, 13, 0.01);
+    border: 0px solid #ff001e;
+    height: 26px;
+    width: 26px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.95);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7.5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(54, 126, 202, 0.78);
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 11.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: rgba(48, 113, 182, 0.78);
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.01), 0px 0px 0px rgba(13, 13, 13, 0.01);
+    border: 0px solid #ff001e;
+    height: 26px;
+    width: 26px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.95);
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 11.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: rgba(43, 100, 162, 0.78);
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: rgba(48, 113, 182, 0.78);
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.01), 0px 0px 0px rgba(13, 13, 13, 0.01);
+    border: 0px solid #ff001e;
+    height: 26px;
+    width: 26px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.95);
+    cursor: pointer;
+    height: 11.4px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: rgba(48, 113, 182, 0.78);
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: rgba(54, 126, 202, 0.78);
+}
+
+.label.hidden {
+    display: none !important;
+}
+
+.point.hidden {
+    display: none;
+}
+
+
+
+/***SITE STYLE***/
+html {
+ overflow-y:scroll;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+.background{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11002c+0,6100ff+94 */
+    background: #11002c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #11002c 0%, #6100ff 94%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #11002c 0%, #6100ff 94%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #11002c 0%, #6100ff 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11002c', endColorstr='#6100ff', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    color: #fff;
+    font-size: 120px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-40%);
+    z-index: 4;
+    font-weight: normal;
+}
+
+
+#stars{
+    animation: grain 0.5s steps(4) infinite;
+}
+.sound{
+    width: 40px;
+    top: 50px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#grain{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+
+}
+
+.sound.hidden{
+    display: none;
+}
+.sound .cls-1 {
+    fill: #fff;
+}
+
+#ground {
+    position: absolute;
+    bottom: 0;
+    animation: grain 0.5s steps(4) infinite;
+    z-index: 5;
+}
+
+#ground .cls-1 {
+    isolation: isolate;
+}
+
+#ground .cls-2 {
+    mix-blend-mode: overlay;
+}
+
+#ground .cls-3 {
+    fill: url(#Dégradé_sans_nom_81);
+}
+
+#girl {
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    z-index: 6;
+}
+
+#girl .cls-1 {
+    fill: url(#Dégradé_sans_nom_3);
+}
+
+#girl .cls-2 {
+    fill: #eceef0;
+}
+
+#girl .cls-3 {
+    fill: #4600ba;
+}
+
+#girl .cls-4 {
+    fill: url(#Dégradé_sans_nom_73);
+}
+
+#meteor {
+    position: absolute;
+    width: 700px;
+    left: 0px;
+    top: -500px;
+    animation: grain 0.5s steps(4) infinite;
+}
+
+#down {
+    width: 30px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#down .cls-1 {
+    isolation: isolate;
+}
+
+#down .cls-2 {
+    mix-blend-mode: overlay;
+}
+
+#down path {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 10px;
+
+}
+
+/***Globe container***/
+.globe-container{
+    display: none;
+}
+
+
+/***ANIMATIONS***/
+@keyframes grain {
+    0%,100% {filter: url(#displacementFilter1)}
+    25% {filter: url(#displacementFilter2)}
+    50% {filter: url(#displacementFilter3)}
+    75% {filter: url(#displacementFilter4)}
+}
+
