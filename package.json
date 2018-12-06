@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animejs": "^2.2.0",
     "bootstrap-slider": "^10.3.2",
-    "d3": "^5.7.0"
+    "d3": "^5.7.0",
+    "lottie-web": "^5.4.2"
   }
 }

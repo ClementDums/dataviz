@@ -1,7 +1,7 @@
 /****GLOBE****/
-const width = 960,
-    height = 500;
-const scl = 230;
+const width = 600,
+    height = 600;
+const scl = 280;
 let proj = d3.geoOrthographic()
     .scale(scl)
     .translate([width / 2, height / 2])
@@ -16,7 +16,7 @@ let graticule = d3.geoGraticule();
 
 let time = Date.now();
 let rotate = [39.666666666666664, -30];
-let velocity = [.015, -0];
+let velocity = [-0.005, -0];
 
 // var lineToLondon = function(d) {
 //     return path({"type": "LineString", "coordinates": [[-0.118667702475932, 51.5019405883275], d.geometry.coordinates]});
@@ -26,7 +26,7 @@ function stripWhitespace(str) {
     return str.replace(" ", "");
 }
 
-let svg = d3.select(".globe-container").append("svg")
+let svg = d3.select(".globe-pos").append("svg")
     .attr("width", width)
     .attr("height", height)
 
@@ -39,11 +39,11 @@ queue()
     .defer(d3.json, "asteroids.json")
     .await(ready);
 
-let zoom = d3.zoom()
-    .scaleExtent([1, 2]) //bound zoom
-    .on("zoom", zoomed);
-
-svg.call(zoom);
+// let zoom = d3.zoom()
+//     .scaleExtent([1, 2]) //bound zoom
+//     .on("zoom", zoomed);
+//
+// svg.call(zoom);
 
 
 function ready(error, world, places) {
@@ -71,10 +71,18 @@ function ready(error, world, places) {
         })
         .attr("class", function (i) {
             let myClass;
-            if (i.properties.mass < 1000) {
-                myClass = "small"
-            } else {
+            if (i.properties.mass > 100000) {
+                myClass = "huge"
+            } else if (i.properties.mass > 10000) {
+
                 myClass = "big"
+            }else if (i.properties.mass > 1000) {
+
+                myClass = "mid"
+            }
+            else {
+
+                myClass = "small"
             }
             return "point hidden " + myClass;
         })
@@ -90,7 +98,7 @@ function ready(error, world, places) {
         })
         .on("mouseout", (d) => {
             let name = stripWhitespace(d.properties.name);
-            d3.select("g.points").select("#" + name).style("opacity", 0.6);
+            d3.select("g.points").select("#" + name).style("opacity", 1);
             d3.select("g.info").select("text.distance").text("");
 
 
@@ -176,13 +184,17 @@ function position_labels() {
 
 function refresh() {
 
-    path.pointRadius(5);
+    path.pointRadius(16);
     svg.selectAll(".land").attr("d", path);
     svg.selectAll(".countries path").attr("d", path);
     svg.selectAll(".graticule").attr("d", path);
-    svg.selectAll(".small").attr("d", path);
-    path.pointRadius(10);
+    svg.selectAll(".huge").attr("d", path);
+    path.pointRadius(8);
     svg.selectAll(".big").attr("d", path);
+    path.pointRadius(4);
+    svg.selectAll(".mid").attr("d", path);
+    path.pointRadius(2);
+    svg.selectAll(".small").attr("d", path);
     position_labels();
 }
 
@@ -250,7 +262,7 @@ function initrange() {
 
 function changeRange(value) {
     let rangeLabel = document.getElementById("rangeLabel");
-    console.log(rangeLabel.value);
+
     rangeLabel.innerHTML = value;
 
     value = parseInt(value);

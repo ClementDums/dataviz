@@ -35,8 +35,8 @@ function draw() {
 
 function loop(timestamp) {
     let progress = timestamp - lastRender;
-    // update(progress);
-    // draw();
+    update(progress);
+    draw();
 
     lastRender = timestamp;
     window.requestAnimationFrame(loop)
