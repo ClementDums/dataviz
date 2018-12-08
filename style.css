@@ -455,7 +455,7 @@ circle {
 
 }
 
-.description{
+.globe-container .description{
     width: 30%;
     height: 550px;
 }
@@ -477,19 +477,36 @@ circle {
 #nearA{
 height: 100%;
 }
-#graph{
-    height: 100%;
+#nearA .wrapper{
     width: 50%;
     margin-top: 20px;
     margin-left: 50px;
+    height: 100%;
+    display: flex;
 
+    width: 100%;
+}
+#nearA .wrapper .secondwrapper{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+#graph{
+    height: 70%;
+    width: 100%;
+
+
+}
+.description-graph{
+    width: 30%;
 }
 .domain{
     stroke: #fff;
 }
 
 .axeGraph{
-    margin-top: 50px;
+    margin-top: 20px;
+    width: 100%;
 }
 .axeGraph circle{
     stroke: none;
@@ -500,6 +517,58 @@ height: 100%;
 .tick line{
     stroke: #fff;
 }
+
+/***controllers***/
+.controllers{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+.selector{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px #fff solid;
+    cursor: pointer;
+}
+
+.selector.active{
+    background: #fff;
+}
+
+.controllers p{
+    margin-top: 15px;
+}
+.description-graph{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin-top: 50px;
+}
+.name-graph{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 60px;
+}
+.date-graph{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.dist-graph{
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.dote{
+    cursor: pointer;
+}
+
 /***ANIMATIONS***/
 @keyframes grain {
     0%,100% {filter: url(#displacementFilter1)}
