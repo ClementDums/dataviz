@@ -17,9 +17,7 @@ function animateSpans() {
         apparitionElement.classList.add('fadein');
         apparitionElement.classList.remove('fadeout');
     }
-    setTimeout(function(){
-        animateExplo();
-    }, 4000);
+
 
 }
 
@@ -27,24 +25,11 @@ setTimeout(function(){
     animateSpans();
 }, 1000);
 
-function animateExplo(){
-    let explo=document.getElementById('explo');
-    TweenLite.to(explo, 0.5, {opacity: 1});
-    setTimeout(function(){
-        meteor.classList.remove('hidden');
-        TweenLite.to(explo, 0.5, {opacity: 0});
-        TweenMax.to("#myOffset", 4, {
-            attr: {
-                "offset": "100%"
-            },
-        });
-    }, 1000);
-    let meteor=document.getElementById('meteor');
 
     setTimeout(function(){
         animText();
     }, 4000);
-}
+
 
 function animText(){
     let text1=document.getElementById('text1');

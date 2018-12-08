@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="178" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="48" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68525e96-b6ac-45f7-8665-12e15ae03a66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cheveux.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bigstar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fond_blanc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grandes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/moyennes_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/petites_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/girlanim.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/grandes.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sound_on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/sound_on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/grandes.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/animation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/stars.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,23 +26,25 @@
     <session id="-1093146810">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,8 +52,8 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="16" />
-          <entry key="json" value="14" />
+          <entry key="js" value="17" />
+          <entry key="json" value="16" />
           <entry key="svg" value="20" />
         </counts>
       </usages-collector>
@@ -67,27 +61,27 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="JSON" value="14" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JSON" value="16" />
+          <entry key="JavaScript" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1599" />
+          <entry key="css" value="2148" />
           <entry key="gitignore" value="12" />
-          <entry key="html" value="1444" />
-          <entry key="js" value="6863" />
+          <entry key="html" value="1780" />
+          <entry key="js" value="8974" />
           <entry key="json" value="581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1599" />
-          <entry key="HTML" value="1444" />
+          <entry key="CSS" value="2148" />
+          <entry key="HTML" value="1780" />
           <entry key="JSON" value="581" />
-          <entry key="JavaScript" value="6863" />
+          <entry key="JavaScript" value="8974" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -95,50 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="367" column="16" selection-start-line="367" selection-start-column="16" selection-end-line="367" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="485" column="28" selection-start-line="485" selection-start-column="28" selection-end-line="485" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#rect#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#svg#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/grandes.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/animation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asteroids.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="16246" column="21" selection-start-line="16246" selection-start-column="17" selection-end-line="16246" selection-end-column="21" />
+            <state relative-caret-position="291">
+              <caret line="212" column="19" selection-start-line="212" selection-start-column="19" selection-end-line="212" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -146,8 +110,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+            <state relative-caret-position="484">
+              <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-43">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asteroids.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="2968" column="19" selection-start-line="2968" selection-start-column="19" selection-end-line="2968" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -165,36 +147,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>globe-</find>
-      <find>land</find>
-      <find>circl</find>
-      <find>c</find>
-      <find>sce</find>
-      <find>star</find>
-      <find>rang</find>
-      <find>ani</find>
-      <find>14</find>
-      <find>sty</find>
-      <find>100000</find>
-      <find>fill</find>
-      <find>hu</find>
-      <find>hug</find>
-      <find>point</find>
-      <find>big</find>
-      <find>mass</find>
-      <find>blac</find>
-      <find>cont</find>
-      <find>padding</find>
-      <find>globe-c</find>
-      <find>conta</find>
-      <find>range</find>
-      <find>glob</find>
-      <find>h2</find>
-      <find>flex</find>
-      <find>conso</find>
       <find>consol</find>
       <find>glov</find>
       <find>west</find>
+      <find>rang</find>
+      <find>lab</find>
+      <find>rangel</find>
+      <find>70%</find>
+      <find>desc</find>
+      <find>range</find>
+      <find>globe-</find>
+      <find>des</find>
+      <find>name</find>
+      <find>animatio</find>
+      <find>grande</find>
+      <find>text-c</find>
+      <find>h1</find>
+      <find>met</find>
+      <find>hidd</find>
+      <find>2013</find>
+      <find>mass</find>
+      <find>glo</find>
+      <find>filt</find>
+      <find>exp</find>
+      <find>z-in</find>
+      <find>expl</find>
+      <find>nearas</find>
+      <find>z-ind</find>
+      <find>neara</find>
+      <find>dataspro</find>
+      <find>near</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,9 +203,9 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/svg/sound_on.svg" />
         <option value="$PROJECT_DIR$/scripts/animation.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -242,8 +224,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="985" />
-    <option name="y" value="180" />
+    <option name="x" value="885" />
+    <option name="y" value="135" />
     <option name="width" value="1120" />
     <option name="height" value="625" />
   </component>
@@ -253,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,13 +246,12 @@
             <path>
               <item name="dataviz" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataviz" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,12 +318,14 @@
       <workItem from="1543997489023" duration="6338000" />
       <workItem from="1544019868648" duration="13690000" />
       <workItem from="1544049341744" duration="475000" />
-      <workItem from="1544082500989" duration="11000000" />
+      <workItem from="1544082500989" duration="11486000" />
+      <workItem from="1544098947916" duration="13029000" />
+      <workItem from="1544185726740" duration="26536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174790000" />
+    <option name="totallyTimeSpent" value="214841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,9 +338,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18724832" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,7 +352,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15319149" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15319149" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -502,9 +485,6 @@
         <state relative-caret-position="-415" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheveux.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -518,57 +498,45 @@
     <entry file="file://$PROJECT_DIR$/images/fond_blanc.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/Petites_etoiles.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Moyennes_etoiles.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Grosses_etoiles.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/grandes.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/Petites_etoiles.svg" />
+    <entry file="file://$PROJECT_DIR$/images/Moyennes_etoiles.svg" />
+    <entry file="file://$PROJECT_DIR$/images/Grosses_etoiles.svg" />
+    <entry file="file://$PROJECT_DIR$/images/grandes.svg" />
+    <entry file="file://$PROJECT_DIR$/cheveux.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/asteroids.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="16246" column="21" selection-start-line="16246" selection-start-column="17" selection-end-line="16246" selection-end-column="21" />
+        <state relative-caret-position="189">
+          <caret line="2968" column="19" selection-start-line="2968" selection-start-column="19" selection-end-line="2968" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="485" column="28" selection-start-line="485" selection-start-column="28" selection-end-line="485" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#rect#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="291">
+          <caret line="212" column="19" selection-start-line="212" selection-start-column="19" selection-end-line="212" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="367" column="16" selection-start-line="367" selection-start-column="16" selection-end-line="367" selection-end-column="16" />
         </state>
       </provider>
     </entry>

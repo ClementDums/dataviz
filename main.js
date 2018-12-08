@@ -1,5 +1,5 @@
 /****GLOBE****/
-const width = 600,
+const width = 640,
     height = 600;
 const scl = 280;
 let proj = d3.geoOrthographic()
@@ -18,17 +18,13 @@ let time = Date.now();
 let rotate = [39.666666666666664, -30];
 let velocity = [-0.005, -0];
 
-// var lineToLondon = function(d) {
-//     return path({"type": "LineString", "coordinates": [[-0.118667702475932, 51.5019405883275], d.geometry.coordinates]});
-// }
-
 function stripWhitespace(str) {
     return str.replace(" ", "");
 }
 
 let svg = d3.select(".globe-pos").append("svg")
     .attr("width", width)
-    .attr("height", height)
+    .attr("height", height);
 
 svg.call(d3.drag()
     .on("start", dragstarted)
@@ -39,11 +35,6 @@ queue()
     .defer(d3.json, "asteroids.json")
     .await(ready);
 
-// let zoom = d3.zoom()
-//     .scaleExtent([1, 2]) //bound zoom
-//     .on("zoom", zoomed);
-//
-// svg.call(zoom);
 
 
 function ready(error, world, places) {
@@ -91,27 +82,18 @@ function ready(error, world, places) {
         .attr("d", path)
 
         .on("mouseover", (d) => {
-            // var distance = Math.round(d3.geoDistance(d.geometry.coordinates, london) * 6371);
-            d3.select("g.info").select("text.distance").text(d.properties.name + " Masse : " + d.properties.mass / 1000+"kg");
-            let name = stripWhitespace(d.properties.name);
-            d3.select("g.points").select("#" + name).style("opacity", 1)
+            let nameIn=document.querySelector(".name");
+            nameIn.innerHTML=d.properties.name;
+            let massIn=document.querySelector(".mass");
+            massIn.innerHTML=d.properties.mass/1000+"kg";
+
         })
         .on("mouseout", (d) => {
-            let name = stripWhitespace(d.properties.name);
-            d3.select("g.points").select("#" + name).style("opacity", 1);
-            d3.select("g.info").select("text.distance").text("");
+            let nameIn=document.querySelector(".name");
+            // nameIn.innerHTML="";
 
 
         });
-
-
-    /**************/
-    // svg.append("g").attr("class","lines")
-    //     .selectAll(".lines").data(places.features)
-    //     .enter().append("path")
-    //     .attr("class", "lines")
-    //     .attr("id", d => stripWhitespace(d.properties.name))
-    //     .attr("d", d => lineToLondon(d));
 
 
     svg.append("g").attr("class", "labels")
@@ -184,16 +166,16 @@ function position_labels() {
 
 function refresh() {
 
-    path.pointRadius(16);
+    path.pointRadius(32);
     svg.selectAll(".land").attr("d", path);
     svg.selectAll(".countries path").attr("d", path);
     svg.selectAll(".graticule").attr("d", path);
     svg.selectAll(".huge").attr("d", path);
-    path.pointRadius(8);
+    path.pointRadius(16);
     svg.selectAll(".big").attr("d", path);
-    path.pointRadius(4);
+    path.pointRadius(8);
     svg.selectAll(".mid").attr("d", path);
-    path.pointRadius(2);
+    path.pointRadius(4);
     svg.selectAll(".small").attr("d", path);
     position_labels();
 }
@@ -272,7 +254,7 @@ function changeRange(value) {
         let year = i.getAttribute("data-year");
         year = parseInt(year);
         i.classList.add("hidden");
-        if (year > value - 11 && year < value + 11) {
+        if (year === value ) {
             i.classList.remove("hidden");
             labels.push(i.getAttribute("id"))
         }
@@ -280,6 +262,136 @@ function changeRange(value) {
 
 
 }
+
+
+/***NEAR ASTEROIDS DEMI CERCLE***/
+
+function formatDate(date) {
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
+
+    if (month.length < 2) month = '0' + month;
+    if (day.length < 2) day = '0' + day;
+    return [year, month, day].join('-');
+}
+
+let today = new Date();
+today = formatDate(today);
+let tomorrow= new Date();
+tomorrow = tomorrow.setDate(tomorrow.getDate() + 3);
+tomorrow= formatDate(tomorrow);
+
+
+
+function callApi(date,datef) {
+    const req = new XMLHttpRequest();
+
+    req.onreadystatechange = function(event) {
+        // XMLHttpRequest.DONE === 4
+        if (this.readyState === XMLHttpRequest.DONE) {
+            if (this.status === 200) {
+                let datasNear = JSON.parse(this.responseText);
+                datasProcess(datasNear);
+            } else {
+                console.log("Status de la réponse: %d (%s)", this.status, this.statusText);
+            }
+        }
+    };
+
+    req.open('GET', 'https://ssd-api.jpl.nasa.gov/cad.api?date-min='+date+'&date-max='+datef+'', true);
+    req.send(null);
+}
+
+callApi(today,tomorrow);
+
+
+function datasProcess(datas){
+    console.log(datas);
+    let finalDatas=[];
+    Object.keys(datas.data).forEach(function (k){
+        finalDatas.push(datas.data[k]);
+    });
+
+    axis(finalDatas);
+}
+
+GraphSvg();
+function GraphSvg(){
+    const parent =document.getElementById("graph");
+    const width = 500;
+    const height = 500;
+    const margin = {top: 20, right: 40, bottom: 30, left: 50};
+    const dataXY = [0.05, 0.04, 0.03, 0.02, 0.01, 0];
+    let svg2 = d3.select("#graph")
+        .append("svg")
+        .attr("class", "axeGraph")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+
+    let x = d3.scaleLinear().domain([d3.min(dataXY), d3.max(dataXY)]).range([width,0]);
+    let y = d3.scaleLinear().domain([d3.min(dataXY), d3.max(dataXY)]).range([height, 0]);
+    const arc = d3.arc();
+    svg2.append('path')
+        .attr("transform", "translate( " + width + ", 0 )")
+        .attr('d', arc({
+            innerRadius: 0,
+            outerRadius: 5,
+            startAngle: -Math.PI*0.5,
+            endAngle: Math.PI*0.5
+        }));
+
+
+    svg2.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .attr("stroke","#fff")
+        .call(d3.axisBottom(x).ticks(5).tickFormat(function(n) { return n + " au"}));
+
+    svg2.append("g")
+        .attr("transform", "translate( " + width + ", 0 )")
+        .attr("stroke","#fff")
+        .attr("class","axisY")
+        .call(d3.axisRight(y).ticks(5));
+}
+function axis(data){
+    const cptRadius =[1,2,3,4,5];
+    const svg2 =d3.select(".axeGraph");
+    const arc = d3.arc();
+
+    svg2.selectAll("quarterCircle")
+        .data(cptRadius)
+        .enter().append('path')
+        .attr('transform', 'translate('+[550,520]+')')
+        .attr('fill',"none")
+        .attr('stroke',"#fff")
+        .attr("stroke-width",1)
+        .attr('d', function (d){
+            console.log(d);
+            const myArc = arc({
+            innerRadius: 0,
+            outerRadius: 100*d,
+            startAngle: -Math.PI*0.5,
+            endAngle: 0});
+            return myArc;
+        });
+
+    svg2.selectAll("dot")
+        .data(data)
+        .enter().append("circle")
+        .attr("r", function (d){return d[10]})
+        .attr("cx", 550 )
+        .attr("fill", "#fff")
+        .attr("stroke","#fff")
+        .attr("dist", function (d){return d[4]})
+        .attr("cy", function (d){return (500-(d[4]*10000)+20)} );
+}
+
+
 
 
 /***scroll***/
@@ -297,3 +409,31 @@ anchor.addEventListener('click', function (e) {
 document.getElementById('sound-on').addEventListener('click', () => {
     document.getElementById('sound-off').classList.remove('hidden');
 });
+
+
+/****PARALLAX SOURIS***/
+ var scene = document.getElementById('scene');
+ var parallaxInstance = new Parallax(scene);
+
+ /***ANIMATION***/
+ var container = document.getElementById('hair-container');
+// Set up our animation
+var animData = {
+    container: container,
+    renderer: 'svg',
+    autoplay: true,
+    loop: true,
+    path: 'images/girlanim.json'
+};
+var anim = bodymovin.loadAnimation(animData);
+
+
+/***fullpage js***/
+new fullpage('#fullpage', {
+    //options here
+    css3: false,
+    scrollingSpeed: 100,
+    autoScrolling:true,
+    scrollHorizontally: false
+});
+
