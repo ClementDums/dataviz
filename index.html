@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Aground | drift in space</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.css">
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.0/mapbox-gl.css' rel='stylesheet'/>
-    <link rel="stylesheet" type="text/css" href="fullpage.css"/>
+
+    <!--myStyles-->
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.3.2/css/bootstrap-slider.css">
+    <link rel="stylesheet" href="styles/globe.css">
+    <link rel="stylesheet" href="styles/graph.css">
+
+    <!--typo-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <!---->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="http://d3js.org/d3.v4.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
@@ -145,35 +148,7 @@
                 </g>
             </svg>
             <!-- FILTRE GRAIN-->
-            <svg>
-                <filter id="displacementFilter1">
-                    <feTurbulence type="turbulence" baseFrequency="1.5"
-                                  numOctaves="2" result="turbulence"/>
-                    <feDisplacementMap in2="turbulence" in="SourceGraphic"
-                                       scale="5" xChannelSelector="R" yChannelSelector="B"/>
-                </filter>
 
-                <filter id="displacementFilter2">
-                    <feTurbulence type="turbulence" baseFrequency="1.5"
-                                  numOctaves="2" result="turbulence"/>
-                    <feDisplacementMap in2="turbulence" in="SourceGraphic"
-                                       scale="5" xChannelSelector="B" yChannelSelector="G"/>
-                </filter>
-
-                <filter id="displacementFilter3">
-                    <feTurbulence type="turbulence" baseFrequency="1.5"
-                                  numOctaves="2" result="turbulence"/>
-                    <feDisplacementMap in2="turbulence" in="SourceGraphic"
-                                       scale="5" xChannelSelector="G" yChannelSelector="R"/>
-                </filter>
-
-                <filter id="displacementFilter4">
-                    <feTurbulence type="turbulence" baseFrequency="1.5"
-                                  numOctaves="2" result="turbulence"/>
-                    <feDisplacementMap in2="turbulence" in="SourceGraphic"
-                                       scale="5" xChannelSelector="B" yChannelSelector="R"/>
-                </filter>
-            </svg>
 
         </div>
         <div class="transition section">
@@ -258,6 +233,37 @@
         </div>
     </div>
 </div>
+
+<!--filters-->
+<svg>
+    <filter id="displacementFilter1">
+        <feTurbulence type="turbulence" baseFrequency="1.5"
+                      numOctaves="2" result="turbulence"/>
+        <feDisplacementMap in2="turbulence" in="SourceGraphic"
+                           scale="5" xChannelSelector="R" yChannelSelector="B"/>
+    </filter>
+
+    <filter id="displacementFilter2">
+        <feTurbulence type="turbulence" baseFrequency="1.5"
+                      numOctaves="2" result="turbulence"/>
+        <feDisplacementMap in2="turbulence" in="SourceGraphic"
+                           scale="5" xChannelSelector="B" yChannelSelector="G"/>
+    </filter>
+
+    <filter id="displacementFilter3">
+        <feTurbulence type="turbulence" baseFrequency="1.5"
+                      numOctaves="2" result="turbulence"/>
+        <feDisplacementMap in2="turbulence" in="SourceGraphic"
+                           scale="5" xChannelSelector="G" yChannelSelector="R"/>
+    </filter>
+
+    <filter id="displacementFilter4">
+        <feTurbulence type="turbulence" baseFrequency="1.5"
+                      numOctaves="2" result="turbulence"/>
+        <feDisplacementMap in2="turbulence" in="SourceGraphic"
+                           scale="5" xChannelSelector="B" yChannelSelector="R"/>
+    </filter>
+</svg>
 <filter id="dropshadow" height="130%">
     <feGaussianBlur in="SourceAlpha" stdDeviation="3"/> <!-- stdDeviation is how much to blur -->
     <feOffset dx="2" dy="2" result="offsetblur"/> <!-- how much to offset -->
@@ -269,12 +275,21 @@
         <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
     </feMerge>
 </filter>
+<!---->
+
+<!--libraries scripts-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.2/lottie.js"></script>
 <script src="node_modules/parallax/parallax.min.js"></script>
 <script src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
 <script src="node_modules/d3-axis/dist/d3-axis.min.js"></script>
+
+<!--scripts-->
+<script src="scripts/globe.js"></script>
+<script src="scripts/globeRange.js"></script>
+<script src="scripts/graph.js"></script>
 <script src="main.js"></script>
 <script src="scripts/animation.js"></script>
+<!---->
 </body>
 
 

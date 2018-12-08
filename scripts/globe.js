@@ -1,15 +1,13 @@
 /****GLOBE****/
-const Globe={
-    width:640,
-    height:600,
-    scl:280,
-    proj:d3.geoOrthographic()
-        .scale(scl)
-        .translate([width / 2, height / 2])
-        // change this to 180 for transparent globe
-        .clipAngle(90)
 
-};
+const width = 640,
+    height = 600;
+const scl = 280;
+let proj = d3.geoOrthographic()
+    .scale(scl)
+    .translate([width / 2, height / 2])
+    // change this to 180 for transparent globe
+    .clipAngle(90);
 
 
 let path = d3.geoPath().projection(proj);
@@ -34,8 +32,8 @@ svg.call(d3.drag()
     .on("drag", dragged));
 
 queue()
-    .defer(d3.json, "world-110m.json")
-    .defer(d3.json, "asteroids.json")
+    .defer(d3.json, "json/world-110m.json")
+    .defer(d3.json, "json/asteroids.json")
     .await(ready);
 
 
