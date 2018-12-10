@@ -55,12 +55,12 @@ function GraphSvg(){
     let x = d3.scaleLinear().domain([d3.min(dataXY), d3.max(dataXY)]).range([width,0]);
     let y = d3.scaleLinear().domain([d3.min(dataXY), d3.max(dataXY)]).range([height, 0]);
 
-
+    let tickLabels = ['Terre','0.01 au','0.02 au','0.03 au','0.04 au','0.05 au']
 
     svg2.append("g")
         .attr("transform", "translate(0," + height + ")")
         .attr("stroke","#fff")
-        .call(d3.axisBottom(x).ticks(5).tickFormat(function(n) { return n + " au"}));
+        .call(d3.axisBottom(x).ticks(5).tickFormat(function(n,i) { return tickLabels[i]}));
 
     svg2.append("g")
         .attr("transform", "translate( " + width + ", 0 )")
@@ -72,27 +72,20 @@ function GraphSvg(){
 }
 
 /**INIT**/
-let today = new Date();
-today = formatDate(today);
-let tomorrow= new Date();
-tomorrow = tomorrow.setDate(tomorrow.getDate() + 1);
-tomorrow= formatDate(tomorrow);
+function initToday(){let today = new Date();
+    today = formatDate(today);
+    let tomorrow= new Date();
+    tomorrow = tomorrow.setDate(tomorrow.getDate() + 1);
+    tomorrow= formatDate(tomorrow);
+    callApi(today,tomorrow);}
 
-callApi(today,tomorrow);
-
+initToday()
 /****/
 
 let selectToday = document.querySelector(".today");
 selectToday.addEventListener("click",function () {
-    let selections= document.querySelectorAll('.selector');
-    selections.forEach(function (i) {
-        i.classList.remove("active")
-    });
+    setDay();
     selectToday.classList.add('active');
-    let pastDotes = document.querySelectorAll('.dote');
-    pastDotes.forEach(function (node) {
-        node.parentNode.removeChild( node );
-    });
     let today = new Date();
     today = formatDate(today);
     let tomorrow= new Date();
@@ -104,15 +97,8 @@ selectToday.addEventListener("click",function () {
 
 let selectTomorrow = document.querySelector(".tomorrow");
 selectTomorrow.addEventListener("click",function () {
-    let selections= document.querySelectorAll('.selector');
-    selections.forEach(function (i) {
-        i.classList.remove("active")
-    });
+    setDay();
     selectTomorrow.classList.add('active');
-    let pastDotes = document.querySelectorAll('.dote');
-    pastDotes.forEach(function (node) {
-        node.parentNode.removeChild( node );
-    });
     let today = new Date();
     today = today.setDate(today.getDate() + 1);
     today = formatDate(today);
@@ -126,15 +112,8 @@ selectTomorrow.addEventListener("click",function () {
 
 let selectYesterday = document.querySelector(".yesterday");
 selectYesterday.addEventListener("click",() =>{
-    let selections= document.querySelectorAll('.selector');
-    selections.forEach(function (i) {
-        i.classList.remove("active")
-    });
+    setDay();
     selectYesterday.classList.add('active');
-    let pastDotes = document.querySelectorAll('.dote');
-    pastDotes.forEach(function (node) {
-        node.parentNode.removeChild( node );
-    });
     let today = new Date();
     today = today.setDate(today.getDate() - 1);
     today = formatDate(today);
@@ -144,6 +123,23 @@ selectYesterday.addEventListener("click",() =>{
 
 });
 
+function setDay() {
+    let name = document.querySelector(".name-graph");
+    name.innerHTML= "";
+    let date = document.querySelector(".date-graph");
+    date.innerHTML= "";
+    let dist = document.querySelector(".dist-graph");
+    dist.innerHTML= "";
+
+    let selections= document.querySelectorAll('.selector');
+    selections.forEach(function (i) {
+        i.classList.remove("active")
+    });
+    let pastDotes = document.querySelectorAll('.dote');
+    pastDotes.forEach(function (node) {
+        node.parentNode.removeChild( node );
+    });
+}
 /***CALL API***/
 function callApi(date,datef) {
     const req = new XMLHttpRequest();
@@ -172,7 +168,10 @@ function datasProcess(datas){
     if(datas.data){
         Object.keys(datas.data).forEach(function (k){
             finalDatas.push(datas.data[k]);
-        });}
+        });}else{
+        let name = document.querySelector(".name-graph");
+        name.innerHTML= "Aucun astéroïde n'est tombé";
+    }
     if(finalDatas.length > 0){
         axis(finalDatas);}
 }
@@ -208,6 +207,9 @@ function axis(data){
 
 }
 
+function randomToday() {
+    
+}
 
 
 

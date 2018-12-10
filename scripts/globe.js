@@ -19,6 +19,8 @@ let time = Date.now();
 let rotate = [39.666666666666664, -30];
 let velocity = [-0.005, -0];
 
+
+
 function stripWhitespace(str) {
     return str.replace(" ", "");
 }
@@ -38,25 +40,55 @@ queue()
 
 
 
+
 function ready(error, world, places) {
+    window.world = world;
+    window.places=places;
+
 
     svg.append("circle")
         .attr("cx", width / 2)
         .attr("cy", height / 2)
         .attr("r", proj.scale())
         .attr("class", "noclicks")
-        .attr("fill", "none");
+
+    svg.append("g").attr("class", "countries")
+        .selectAll("path")
+        .data(topojson.object(world, world.objects.countries).geometries)
+        .enter().append("path")
+        .attr("d", path);
 
     svg.append("path")
         .datum(topojson.object(world, world.objects.land))
         .attr("class", "land")
         .attr("d", path);
+    let currentyear=2009;
 
 
+    filterDatas(currentyear)
+
+    spin();
+    dragstarted()
+}
+
+function filterDatas(currentYear) {
+    const world=window.world;
+    const places = window.places;
+
+    let basedata = {"type": "FeatureCollection", "features": []};
+
+
+    places.features.forEach(function (item) {
+        if(item.properties.year===currentYear){
+            basedata.features.push(item);
+        }
+
+    });
     //POINTS
 
+
     svg.append("g").attr("class", "points")
-        .selectAll("text").data(places.features)
+        .selectAll("text").data(basedata.features)
         .enter().append("path")
         .attr("data-year", function (i) {
             return i.properties.year;
@@ -76,7 +108,7 @@ function ready(error, world, places) {
 
                 myClass = "small"
             }
-            return "point hidden " + myClass;
+            return "point " + myClass;
         })
         .attr("id", d => stripWhitespace(d.properties.name))
 
@@ -97,71 +129,11 @@ function ready(error, world, places) {
         });
 
 
-    svg.append("g").attr("class", "labels")
-        .selectAll("text").data(places.features)
-        .enter().append("text")
-        .attr("class", "label hidden")
-        .text(d => d.properties.name)
-        .on("mouseover", (d) => {
-            // var distance = Math.round(d3.geoDistance(d.geometry.coordinates, london) * 6371);
-            d3.select("g.info").select("text.distance").text(d.properties.name);
-            let name = stripWhitespace(d.properties.name);
-            d3.select("g.lines").select("#" + name).style("stroke-opacity", 1)
-        })
-        .on("mouseout", (d) => {
-            let name = stripWhitespace(d.properties.name);
-            d3.select("g.lines").select("#" + name).style("stroke-opacity", 0.3);
-            d3.select("g.info").select("text.distance").text("");
-        });
-
-    svg.append("g").attr("class", "countries")
-        .selectAll("path")
-        .data(topojson.object(world, world.objects.countries).geometries)
-        .enter().append("path")
-        .attr("d", path);
-
-    position_labels();
-
-    svg.append("g").attr("class", "info")
-        .append("text")
-        .attr("class", "distance")
-        .attr("x", width / 20)
-        .attr("y", height * 0.9)
-        .attr("text-anchor", "start")
-        .style("font-size", "15px")
-        .text("");
-
-    initrange();
     refresh();
 
-    spin();
 }
 
 
-function position_labels() {
-
-    const centerPos = proj.invert([width / 2, height / 2]);
-
-    svg.selectAll(".label")
-        .attr("text-anchor", (d) => {
-            let x = proj(d.geometry.coordinates)[0];
-            return x < width / 2 - 20 ? "end" :
-                x < width / 2 + 20 ? "middle" :
-                    "start"
-        })
-        .attr("transform", (d) => {
-            let loc = proj(d.geometry.coordinates),
-                x = loc[0],
-                y = loc[1];
-            let offset = x < width / 2 ? -5 : 5;
-            return "translate(" + (x + offset) + "," + (y - 2) + ")"
-        })
-        .style("display", (d) => {
-            var d = d3.geoDistance(d.geometry.coordinates, centerPos);
-            return (d > 1.57) ? 'none' : 'inline';
-        })
-
-}
 
 /***REFRESH***/
 
@@ -178,7 +150,6 @@ function refresh() {
     svg.selectAll(".mid").attr("d", path);
     path.pointRadius(4);
     svg.selectAll(".small").attr("d", path);
-    position_labels();
 }
 
 
