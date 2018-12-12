@@ -16,6 +16,7 @@
     "fullpage.js": "^3.0.4",
     "gsap": "^2.0.2",
     "lottie-web": "^5.4.2",
+    "moment": "^2.22.2",
     "scrollmagic": "^2.0.6"
   }
 }

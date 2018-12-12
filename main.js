@@ -2,18 +2,15 @@
 
 /***********/
 
+moment().format();
 
-/***Sound***/
 
-document.getElementById('sound-on').addEventListener('click', () => {
-    document.getElementById('sound-off').classList.remove('hidden');
-});
 
 
 
 /****PARALLAX SOURIS***/
-var scenes = [];
-var scenesSelector = document.querySelectorAll('.scene');
+const scenes = [];
+const scenesSelector = document.querySelectorAll('.scene');
 
 for(let i=0; i<scenesSelector.length; i++){
     scenes[i] = new Parallax(scenesSelector[i]);
@@ -22,23 +19,23 @@ for(let i=0; i<scenesSelector.length; i++){
 
 
 /***ANIMATION***/
-var container = document.getElementById('hair-container');
+const container = document.getElementById('hair-container');
 // Set up our animation
-var animData = {
+const animData = {
     container: container,
     renderer: 'svg',
     autoplay: true,
     loop: true,
-    path: 'images/girlanim.json'
+    path: 'json/cheveux.json'
 };
-var anim = bodymovin.loadAnimation(animData);
+const anim = bodymovin.loadAnimation(animData);
 
 
 
 
 
 /****DISABLE SCROLL****/
-var keys = {37: 1, 38: 1, 39: 1, 40: 1, 32: 1};
+const keys = {37: 1, 38: 1, 39: 1, 40: 1, 32: 1};
 function preventDefault(e) {
     e = e || window.event;
     if (e.preventDefault)
@@ -70,26 +67,83 @@ function enableScroll() {
     window.ontouchmove = null;
     document.onkeydown = null;
 }
-/***fullpage js***/
+/***FULLPAGE js***/
 
 disableScroll();
+
+
+
+/***Sound***/
+/****PLAY SOUND***/
+
+document.getElementById('sound-on').addEventListener('click', () => {
+    document.getElementById('sound-off').classList.remove('hidden');
+    document.getElementById('sound-on').classList.add('hidden');
+    forest.pause();
+    earth.pause();
+});
+
+document.getElementById('sound-off').addEventListener('click', () => {
+    document.getElementById('sound-off').classList.add('hidden');
+    document.getElementById('sound-on').classList.remove('hidden');
+    const page = document.querySelectorAll('.section');
+    let mypage="none";
+    page.forEach(function (item) {
+        if(item.classList.contains("active")){
+            mypage = item.id;
+        }
+    })
+    if(mypage=="header"){
+        forest.play();
+    }else if(mypage=="none"){
+        forest.play();
+    }
+    else{
+        earth.play()
+    }
+
+
+});
+const forest = new Audio('sounds/forest.mp3');
+forest.play();
+const earth = new Audio('sounds/earth.mp3');
+
+forest.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+}, false);
+
+earth.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+}, false);
+
 
 function enablefullpage() {
     new fullpage('#fullpage', {
         //options here
         css3: false,
-        scrollingSpeed: 1000,
+        scrollingSpeed: 500,
         autoScrolling:true,
         scrollHorizontally: false,
         onLeave: function(origin, destination, direction){
             if(destination.item.id != "header"){
+
                 setTimeout(function(){
                     anim.stop()
                 }, 1000);
-
+                const soundoff= document.querySelector("#sound-off");
+                if(soundoff.classList.contains("hidden")) {
+                    forest.pause();
+                    earth.play();
+                }
 
             }else{
-                anim.play();
+                const soundoff= document.querySelector("#sound-off");
+                if(soundoff.classList.contains("hidden")) {
+                    earth.pause();
+                    forest.play();
+                }
             }
         },
     });

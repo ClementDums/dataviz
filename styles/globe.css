@@ -1,27 +1,27 @@
 /***Globe container***/
 
-
-.globe-container{
+.globe-container {
     height: 100vh;
+    padding-top: 50px;
 
 }
-.globe-container .wrapper{
+
+.globe-container .wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .label.hidden {
     display: none !important;
 }
 
-
-.globe-pos{
-    width: 40%;
+.globe-pos {
+    width: 50%;
 }
 
-.globe-pos svg{
+.globe-pos svg {
     position: absolute;
     left: 0;
     right: 0;
@@ -30,17 +30,24 @@
     cursor: pointer;
 }
 
-.big{z-index: 8}
-.mid{
+.big {
+    z-index: 8
+}
+
+.mid {
     z-index: 9;
 }
-.small{
+
+.small {
     z-index: 10;
 }
-.range{width: 30%;
-border: 1px solid transparent}
 
-.range span{
+.range {
+    width: 20%;
+    border: 1px solid transparent
+}
+
+.range span {
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 18px;
@@ -50,14 +57,14 @@ border: 1px solid transparent}
 }
 
 .range div span:first-of-type {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-.range div{
-    margin-left: 150px;
+.range div {
+    margin-left: 100px;
 }
 
-#rangeLabel{
+#rangeLabel {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 60px;
@@ -109,33 +116,82 @@ circle {
 
 .noclicks {
     pointer-events: none;
-    fill:url(#grad-earth);
+    fill: url(#grad-earth);
     stroke: #fff;
     opacity: 0.4;
-    stroke-width:0 ;
+    stroke-width: 0;
 }
 
 .point {
     opacity: 1;
-    fill: rgba(255,255,255,0.5);
+    fill: rgba(255, 255, 255, 0.5);
     stroke: #fff;
     stroke-width: 1;
     cursor: pointer;
+
 }
 
-.globe-container .description{
-    width: 30%;
-    height: 550px;
+.globe-container .description {
+    width: 80%;
+    min-height: 200px;
+    margin-top: 50px;
+    text-align: right;
 }
 
-.name, .mass{
+.name, .mass {
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-size: 60px;
     font-style: italic;
 }
-.mass{
+
+.mass {
     font-size: 26px;
     font-style: normal;
     margin-top: 10px;
+}
+
+.column {
+    display: flex;
+
+    flex-direction: column;
+margin-left: 80px;
+    width: calc(30% - 80px);
+    text-align: right;
+}
+
+.scales {
+    position: relative;
+}
+
+.scales div {
+    position: relative;
+    height: auto
+}
+
+.scales img {
+    width: 200px;
+    float: right;
+    margin-bottom: 30px;
+}
+.scales .loupe{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.find, .totalmass {
+    clear: right;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+}
+.find p,.totalmass p{
+    width: 200px;
+}
+
+.totalmass img{
+    height: 60px;
 }

@@ -5,10 +5,17 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /
 }
 body.noscroll{
     overflow-y: hidden;
 }
+
 .background{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#11002c+0,6100ff+94 */
     background: #11002c; /* Old browsers */
@@ -80,7 +87,8 @@ h1 {
     text-align: center;
     font-style: italic;
     font-size: 32px;
-    z-index: 15}
+    z-index: 15;
+    line-height:1.4;}
 
 .texts-content{
     display: none;
@@ -110,13 +118,17 @@ h1 {
     width: 100%;
 }
 .sound{
-    width: 40px;
+    width: 25px;
     top: 50px;
-    position: absolute;
+    position: fixed;
     right: 50px;
     cursor: pointer;
-    z-index: 4;
+    z-index: 15;
+    mix-blend-mode: difference;
+    cursor: pointer;
 }
+.sound .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:15px;}
+
 
 #grain{
     position: absolute;
@@ -132,9 +144,7 @@ h1 {
 .sound.hidden{
     display: none;
 }
-.sound .cls-1 {
-    fill: #fff;
-}
+
 
 #ground {
     position: absolute;
@@ -187,7 +197,7 @@ h1 {
     animation: grain 0.5s steps(4) infinite;
 }
 #meteor-2{
-fill:#f2359d;
+fill:#fff;
 }
 @keyframes dash {
     from {
@@ -233,10 +243,9 @@ fill:#f2359d;
 /***Hair anim***/
 #hair-container{
     position: absolute;
-    top: 200px;
     left: 15px;
     z-index: 12;
-    bottom: -135px;
+    bottom: 0;
 
 }
 
@@ -267,28 +276,30 @@ fill:#f2359d;
     font-size: 25px;
     width: 40%;
     margin: 0 auto;
-    line-height: 1.4;
+    padding-top: 10px;
 
 }
 .text-transition:last-of-type p{
     width: 70%;
 }
-.text-transition span {
+.text-transition .letter {
     font-family: 'Playfair Display', serif;
     font-size: 75px;
     font-style: italic;
     font-weight: 900;
+    line-height: 1;
 }
 
-#transition-slide2 .text-transition p{
-    line-height: 1.1;
-}
 
-#transition-slide2 .text-transition:last-of-type p{
+.text-transition .bigtext{
     font-style: italic;
-    padding-top: 80px;
     font-size: 42px;
+    line-height: 4;
 }
+.text-transition .softtext{
+    line-height: 1.4;
+}
+
 #transition-slide2 .earth{
     width: 400px;
 }
@@ -309,7 +320,10 @@ fill:#f2359d;
     left: inherit!important;
     top: 200px!important;
     z-index: 3;
+    animation: grain 0.5s steps(4) infinite;
 }
+
+
 
 .images-transition{
     height: 46%;
@@ -347,6 +361,7 @@ fill:#f2359d;
     height: 150px;
     top: 100px !important;
     left: 120px !important;
+    animation: grain 0.5s steps(4) infinite;
 }
 #transition-slide .bigstars,#transition-slide  .firststars,#transition-slide  .midstars{
     position: absolute;
@@ -358,9 +373,51 @@ fill:#f2359d;
     position: absolute;
     width: 100%;
 }
+.footer{
+    height: 100vh;
+    position: relative;
+ }
+.footer p{
+    top: 100px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: center;
+    left: 0;
+    right: 0;
 
+}
+.footer .earth{
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto;
+    width: 150px;
+    top: 250px !important;
 
+}
+.footer .cometefin{
+    position: absolute;
+    width: 200px;
+    right: inherit !important;
+    left: 38% !important;
+    margin: 0 auto;
+    bottom: 250px !important;
+    top: inherit !important;
+}
+.footer .bigstar{
+    bottom: 150px !important;
+    top: inherit !important;
+    right: 200px !important;
+    left: inherit !important;
+}
 
+.footer .bigstar2{
+    bottom: inherit !important;
+    top: 190px !important;
+    right: inherit !important;
+    left: 300px !important;
+}
 /***ANIMATIONS***/
 @keyframes grain {
     0%,100% {filter: url(#displacementFilter1)}

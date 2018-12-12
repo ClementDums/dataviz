@@ -1,32 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="67" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="68525e96-b6ac-45f7-8665-12e15ae03a66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htacess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Skin-Noise_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/drop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fall3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fall4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ground_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/CCI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Corps_Girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Gobelins_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/NASA_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Tete_Girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cneos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/comete_fin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/distance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/distance_fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_mass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/legende.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/loupe_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sol_grain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vitesse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vitesse_fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/anim_finale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/asteroid1940.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/cheveux.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/randomAsteroid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/earth.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/forest.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/infos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bigstar.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bigstar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/grandes.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/grandes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ground.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataviz.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dataviz.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/.nvmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/.sass-lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dependencies/css/highlightjs-github-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dependencies/js/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dependencies/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dependencies/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dist/bootstrap-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dist/bootstrap-slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dist/css/bootstrap-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/dist/css/bootstrap-slider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/scripts/release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/scripts/update-gh-pages.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/js/bootstrap-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/less/bootstrap-slider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/less/rules.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/sass/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/sass/_rules.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/src/sass/bootstrap-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/phantom_bind_polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/AccessibilitySpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/AriaValueTextFormatterSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/AutoRegisterDataProvideSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/ConflictingOptionsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/DestroyMethodTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/DraggingHandlesSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/ElementDataAttributesSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/EventsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/FocusOptionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/KeyboardSupportSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/LogarithmicScaleSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/LowAndHighTrackSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/NamespaceSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/OrientationSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/PublicMethodsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/RangeHighlightsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/RefreshMethodSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/ResizeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/RtlOptionsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/ScrollableBodySpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/ScrollableContainerSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/StepReachMaxValueSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/TickClickingBehaviorSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/TickLabelSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/TickMarksSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/TooltipMouseOverOptionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/TooltipPositionOptionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/TooltipSplitOptionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/test/specs/offMethodSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/tpl/SpecRunner.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-slider/tpl/index.tpl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/animation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/globe.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/globe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/globeRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/globeRange.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scroll.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/graph.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/graph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +116,7 @@
     <session id="-1093146810">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -46,56 +124,58 @@
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.45" value="3" />
           <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="9" />
+          <entry key="css" value="19" />
           <entry key="gitignore" value="1" />
           <entry key="htacess" value="1" />
           <entry key="html" value="3" />
-          <entry key="js" value="35" />
-          <entry key="json" value="17" />
-          <entry key="svg" value="21" />
+          <entry key="js" value="57" />
+          <entry key="json" value="20" />
+          <entry key="svg" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
+          <entry key="CSS" value="19" />
           <entry key="HTML" value="3" />
-          <entry key="JSON" value="17" />
-          <entry key="JavaScript" value="35" />
+          <entry key="JSON" value="20" />
+          <entry key="JavaScript" value="57" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SVG" value="21" />
+          <entry key="SVG" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3823" />
+          <entry key="css" value="5772" />
           <entry key="gitignore" value="12" />
-          <entry key="html" value="3108" />
-          <entry key="js" value="13749" />
+          <entry key="html" value="4668" />
+          <entry key="js" value="21130" />
           <entry key="json" value="581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3823" />
-          <entry key="HTML" value="3108" />
+          <entry key="CSS" value="5772" />
+          <entry key="HTML" value="4668" />
           <entry key="JSON" value="581" />
-          <entry key="JavaScript" value="13749" />
+          <entry key="JavaScript" value="21130" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -106,35 +186,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="202" column="79" selection-start-line="202" selection-start-column="79" selection-end-line="202" selection-end-column="79" />
+            <state relative-caret-position="8">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#svg#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#svg#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#filter#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/globeRange.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/scroll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -142,35 +200,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/animation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/graph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="81" selection-start-line="81" selection-end-line="81" selection-end-column="11" />
+            <state relative-caret-position="572">
+              <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
+        <entry file="file://$PROJECT_DIR$/scripts/randomAsteroid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/globe.js">
+        <entry file="file://$PROJECT_DIR$/styles/infos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="498">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -178,8 +227,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+            <state relative-caret-position="172">
+              <caret line="322" column="38" selection-start-line="322" selection-start-column="38" selection-end-line="322" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -187,8 +236,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/globe.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="195" column="13" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/icon_mass.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/globe.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/graph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="554" column="40" selection-start-line="554" selection-start-column="40" selection-end-line="554" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -206,36 +287,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ble</find>
-      <find>bigs</find>
-      <find>stars</find>
+      <find>saura</find>
+      <find>text</find>
       <find>big</find>
-      <find>mode</find>
-      <find>ea</find>
-      <find>fall</find>
-      <find>sta</find>
-      <find>dri</find>
-      <find>cdn</find>
-      <find>hair</find>
+      <find>bi</find>
+      <find>texts</find>
+      <find>saur</find>
+      <find>cls</find>
+      <find>sou</find>
       <find>ground</find>
-      <find>grou</find>
-      <find>day</find>
-      <find>back</find>
-      <find>no-c</find>
-      <find>scr</find>
-      <find>uf</find>
-      <find>points</find>
-      <find>noc</find>
-      <find>point</find>
-      <find>transit</find>
-      <find>blen</find>
-      <find>transi</find>
+      <find>soun</find>
+      <find>300px</find>
+      <find>des</find>
+      <find>fall</find>
       <find>anima</find>
-      <find>nocl</find>
-      <find>tran</find>
-      <find>grai</find>
-      <find>ra</find>
-      <find>transition-slide2</find>
+      <find>activ</find>
+      <find>mous</find>
+      <find>nos</find>
+      <find>conso</find>
+      <find>filter</find>
+      <find>fall4</find>
+      <find>footer</find>
+      <find>dot</find>
+      <find>dott</find>
+      <find>sound</find>
+      <find>mov</find>
+      <find>hair</find>
+      <find>infos</find>
+      <find>scroll.</find>
+      <find>inf</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -260,18 +341,21 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/svg/sound_on.svg" />
         <option value="$PROJECT_DIR$/scripts/range.js" />
+        <option value="$PROJECT_DIR$/.htacess" />
+        <option value="$PROJECT_DIR$/json/asteroid1940.json" />
         <option value="$PROJECT_DIR$/styles/reset.css" />
+        <option value="$PROJECT_DIR$/scripts/randomAsteroid.js" />
         <option value="$PROJECT_DIR$/styles/graph.css" />
         <option value="$PROJECT_DIR$/scripts/globeRange.js" />
-        <option value="$PROJECT_DIR$/.htacess" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/scripts/animation.js" />
-        <option value="$PROJECT_DIR$/scripts/scroll.js" />
         <option value="$PROJECT_DIR$/scripts/globe.js" />
         <option value="$PROJECT_DIR$/styles/globe.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/scripts/graph.js" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/styles/infos.css" />
+        <option value="$PROJECT_DIR$/scripts/scroll.js" />
+        <option value="$PROJECT_DIR$/scripts/animation.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main.js" />
       </list>
     </option>
   </component>
@@ -312,12 +396,22 @@
             <path>
               <item name="dataviz" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataviz" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataviz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataviz" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataviz" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataviz" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
+              <item name="sounds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataviz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataviz" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,14 +430,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\images" />
       <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\json" />
+      <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\images" />
+      <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\sounds" />
       <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\node_modules" />
       <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\svg" />
-      <recent name="C:\Users\Clem\Documents\Gobelins\dataviz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\json" />
       <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\images" />
+      <recent name="C:\Users\Clem\Documents\Gobelins\dataviz\sounds" />
       <recent name="C:\Users\Clem\Documents\Gobelins\dataviz" />
     </key>
   </component>
@@ -398,12 +494,18 @@
       <workItem from="1544387880381" duration="4897000" />
       <workItem from="1544427695836" duration="11453000" />
       <workItem from="1544443309920" duration="10199000" />
-      <workItem from="1544457649354" duration="4332000" />
+      <workItem from="1544457649354" duration="13734000" />
+      <workItem from="1544476850395" duration="3748000" />
+      <workItem from="1544514360194" duration="21467000" />
+      <workItem from="1544541676478" duration="693000" />
+      <workItem from="1544542469559" duration="1315000" />
+      <workItem from="1544557125188" duration="19445000" />
+      <workItem from="1544604828353" duration="39323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300262000" />
+    <option name="totallyTimeSpent" value="395655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +520,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,7 +541,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -466,36 +568,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/scripts/globe.js</url>
+          <line>137</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../d3js-cours/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.json" />
-    <entry file="file://$PROJECT_DIR$/json/world-110m.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37853" column="1" selection-start-line="37853" selection-start-column="1" selection-end-line="37853" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/versor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.json" />
-    <entry file="file://$PROJECT_DIR$/asteroid-impacts.json" />
-    <entry file="file://$PROJECT_DIR$/impacts.json" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ground.svg" />
     <entry file="file://$PROJECT_DIR$/images/meteor.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -552,27 +637,6 @@
     <entry file="file://$PROJECT_DIR$/cheveux.json" />
     <entry file="file://$PROJECT_DIR$/range.js" />
     <entry file="file://$PROJECT_DIR$/scripts/stars.js" />
-    <entry file="file://$PROJECT_DIR$/styles/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/asteroids.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16279" column="20" selection-start-line="16279" selection-start-column="16" selection-end-line="16279" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/graph.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/drop.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -583,6 +647,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/info.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/CCI.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/vitesse.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/vitesse_fill.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/distance.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/asteroid1940.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="2137" column="18" lean-forward="true" selection-start-line="2137" selection-start-column="18" selection-end-line="2137" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/asteroids.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="16279" column="20" selection-start-line="16279" selection-start-column="16" selection-end-line="16279" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/legende.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/legende.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sound_on_1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sound_off_1 (1).svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sound_off_1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/graph.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="180" column="44" selection-start-line="180" selection-start-column="44" selection-end-line="180" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/globeRange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon_mass.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/globe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="195" column="13" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/globe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="554" column="40" selection-start-line="554" selection-start-column="40" selection-end-line="554" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/anim_finale.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="322" column="38" selection-start-line="322" selection-start-column="38" selection-end-line="322" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/infos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -590,68 +760,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/globe.js">
+    <entry file="file://$PROJECT_DIR$/scripts/randomAsteroid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/animation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/globeRange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="572">
+          <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="202" column="79" selection-start-line="202" selection-start-column="79" selection-end-line="202" selection-end-column="79" />
+        <state relative-caret-position="8">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#filter#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/globe.css">
+    <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="81" selection-start-line="81" selection-end-line="81" selection-end-column="11" />
+        <state relative-caret-position="223">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>

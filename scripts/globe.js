@@ -1,8 +1,8 @@
 /****GLOBE****/
 
-const width = 640,
-    height = 600;
-const scl = 280;
+const width = 600,
+    height = 580;
+const scl = 250;
 let proj = d3.geoOrthographic()
     .scale(scl)
     .translate([width / 2, height / 2])
@@ -35,13 +35,14 @@ svg.call(d3.drag()
 
 queue()
     .defer(d3.json, "json/world-110m.json")
-    .defer(d3.json, "json/asteroids.json")
+    .defer(d3.json, "json/asteroid1940.json")
     .await(ready);
 
 
 
 
 function ready(error, world, places) {
+    randomAsteroid(places);
     window.world = world;
     window.places=places;
 
@@ -77,7 +78,7 @@ function filterDatas(currentYear) {
 
     let basedata = {"type": "FeatureCollection", "features": []};
 
-
+    totalMass(currentYear, places);
     places.features.forEach(function (item) {
         if(item.properties.year===currentYear){
             basedata.features.push(item);
@@ -118,7 +119,10 @@ function filterDatas(currentYear) {
             let nameIn=document.querySelector(".name");
             nameIn.innerHTML=d.properties.name;
             let massIn=document.querySelector(".mass");
-            massIn.innerHTML=d.properties.mass/1000+"kg";
+            massIn.innerHTML=Math.round(1000*(d.properties.mass/1000))/1000+"kg";
+            if(!d.properties.mass){
+                massIn.innerHTML="";
+            }
 
         })
         .on("mouseout", (d) => {
@@ -133,7 +137,16 @@ function filterDatas(currentYear) {
 
 }
 
-
+function totalMass(year, places) {
+    let masstotal=0;
+    document.querySelector(".currentYear").innerHTML=year;
+    places.features.forEach(function (item) {
+        if(item.properties.year==year){
+            masstotal+=Math.round(item.properties.mass/1000);
+        }
+    });
+    document.querySelector(".totalCount").innerHTML=masstotal;
+}
 
 /***REFRESH***/
 
@@ -184,7 +197,7 @@ function dragged() {
 }
 
 /***ZOOM***/
-function zoomed() {
-    proj.scale(d3.event.transform.translate(proj).k * scl)
-    refresh();
-}
+// function zoomed() {
+//     proj.scale(d3.event.transform.translate(proj).k * scl)
+//     refresh();
+// }

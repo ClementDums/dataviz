@@ -1,0 +1,6789 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aarhus",
+        "year": 1951,
+        "class": "H6",
+        "mass": 720
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.23333,
+          56.18333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abee",
+        "year": 1952,
+        "class": "EH4",
+        "mass": 107000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113,
+          54.21667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acapulco",
+        "year": 1976,
+        "class": "Acapulcoite",
+        "mass": 1914
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.9,
+          16.88333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adzhi-Bogdo (stone)",
+        "year": 1949,
+        "class": "LL3-6",
+        "mass": 910
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.16667,
+          44.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aioun el Atrouss",
+        "year": 1974,
+        "class": "Diogenite-pm",
+        "mass": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.57028,
+          16.39806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akaba",
+        "year": 1949,
+        "class": "L6",
+        "mass": 779
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.05,
+          29.51667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akwanga",
+        "year": 1959,
+        "class": "H",
+        "mass": 3000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.43333,
+          8.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akyumak",
+        "year": 1981,
+        "class": "Iron, IVA",
+        "mass": 50000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.81667,
+          39.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Rais",
+        "year": 1957,
+        "class": "CR2-an",
+        "mass": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.51667,
+          24.41667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Zarnkh",
+        "year": 2001,
+        "class": "LL5",
+        "mass": 700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.96,
+          13.66033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alberta",
+        "year": 1949,
+        "class": "L",
+        "mass": 625
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.66667,
+          2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alby sur Chéran",
+        "year": 2002,
+        "class": "Eucrite-mmict",
+        "mass": 252
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.01533,
+          45.82133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Allende",
+        "year": 1969,
+        "class": "CV3",
+        "mass": 2000000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.31667,
+          26.96667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Almahata Sitta",
+        "year": 2008,
+        "class": "Ureilite-an",
+        "mass": 3950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41275,
+          20.74575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alta'ameem",
+        "year": 1977,
+        "class": "LL5",
+        "mass": 6000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.21556,
+          35.27333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andreevka",
+        "year": 1969,
+        "class": "L3",
+        "mass": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5,
+          48.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ankober",
+        "year": 1942,
+        "class": "H4",
+        "mass": 6500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.71667,
+          9.53333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anlong",
+        "year": 1971,
+        "class": "H5",
+        "mass": 2500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.18333,
+          25.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aomori",
+        "year": 1984,
+        "class": "L6",
+        "mass": 320
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.78556,
+          40.81056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arbol Solo",
+        "year": 1954,
+        "class": "H5",
+        "mass": 810
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66,
+          -33
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arroyo Aguiar",
+        "year": 1950,
+        "class": "H5",
+        "mass": 7450
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.66667,
+          -31.41667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ash Creek",
+        "year": 2009,
+        "class": "L6",
+        "mass": 9500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.01,
+          31.805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atoka",
+        "year": 1945,
+        "class": "L6",
+        "mass": 1384.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.15,
+          34.31667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Avanhandava",
+        "year": 1952,
+        "class": "H4",
+        "mass": 9330
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.95083,
+          -21.46028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Awere",
+        "year": 1968,
+        "class": "L4",
+        "mass": 134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.83333,
+          2.71667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ban Rong Du",
+        "year": 1993,
+        "class": "Iron, ungrouped",
+        "mass": 16700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.18333,
+          16.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barwell",
+        "year": 1965,
+        "class": "L5",
+        "mass": 44000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.33972,
+          52.56528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bassikounou",
+        "year": 2006,
+        "class": "H5",
+        "mass": 29560
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9,
+          15.78333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baszkówka",
+        "year": 1994,
+        "class": "L5",
+        "mass": 15500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.93583,
+          52.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Battle Mountain",
+        "year": 2012,
+        "class": "L6",
+        "mass": 2900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18913,
+          40.66813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bawku",
+        "year": 1989,
+        "class": "LL5",
+        "mass": 1557
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18333,
+          11.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beddgelert",
+        "year": 1949,
+        "class": "H5",
+        "mass": 794
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1,
+          53.01667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bells",
+        "year": 1961,
+        "class": "C2-ung",
+        "mass": 375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.46667,
+          33.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benguerir",
+        "year": 2004,
+        "class": "LL6",
+        "mass": 25000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.15,
+          32.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beni M'hira",
+        "year": 2001,
+        "class": "L6",
+        "mass": 19000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8,
+          32.86667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benoni",
+        "year": 1943,
+        "class": "H6",
+        "mass": 3880
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.41667,
+          -26.16667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bensour",
+        "year": 2002,
+        "class": "LL6",
+        "mass": 45000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benton",
+        "year": 1949,
+        "class": "LL6",
+        "mass": 2840
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.55,
+          45.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berduc",
+        "year": 2008,
+        "class": "L6",
+        "mass": 270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.32833,
+          -31.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berthoud",
+        "year": 2004,
+        "class": "Eucrite-mmict",
+        "mass": 960
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02325,
+          40.30583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhawad",
+        "year": 2002,
+        "class": "LL6",
+        "mass": 678
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.11528,
+          26.50833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhola",
+        "year": 1940,
+        "class": "LL3-6",
+        "mass": 1047
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.65,
+          22.68333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bilanga",
+        "year": 1999,
+        "class": "Diogenite",
+        "mass": 25000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08333,
+          12.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Binningup",
+        "year": 1984,
+        "class": "H5",
+        "mass": 488.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.67639,
+          -33.15639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Black Moshannan Park",
+        "year": 1941,
+        "class": "L5",
+        "mass": 705
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.08333,
+          40.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bo Xian",
+        "year": 1977,
+        "class": "LL3.9",
+        "mass": 7500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.83333,
+          33.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bogou",
+        "year": 1962,
+        "class": "Iron, IAB-MG",
+        "mass": 8800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7,
+          12.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boumdeid (2003)",
+        "year": 2003,
+        "class": "L6",
+        "mass": 190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.3715,
+          17.71067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boumdeid (2011)",
+        "year": 2011,
+        "class": "L6",
+        "mass": 3599
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.34133,
+          17.17493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bovedy",
+        "year": 1969,
+        "class": "L3",
+        "mass": 5460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.33333,
+          54.56667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Breitscheid",
+        "year": 1956,
+        "class": "H5",
+        "mass": 1500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.18361,
+          50.66694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruderheim",
+        "year": 1960,
+        "class": "L6",
+        "mass": 303000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.88333,
+          53.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bukhara",
+        "year": 2001,
+        "class": "CV3",
+        "mass": 5300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.60035,
+          39.77978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulls Run",
+        "year": 1964,
+        "class": "Iron?",
+        "mass": 2250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bunburra Rockhole",
+        "year": 2007,
+        "class": "Eucrite",
+        "mass": 324
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.19,
+          -31.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bununu",
+        "year": 1942,
+        "class": "Howardite",
+        "mass": 357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.58333,
+          10.01667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burnwell",
+        "year": 1990,
+        "class": "H4-an",
+        "mass": 1504
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.23722,
+          37.62194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bursa",
+        "year": 1946,
+        "class": "L6",
+        "mass": 25000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.23333,
+          40.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buzzard Coulee",
+        "year": 2008,
+        "class": "H4",
+        "mass": 41000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.84817,
+          52.996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cali",
+        "year": 2007,
+        "class": "H/L4",
+        "mass": 478
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.51,
+          3.405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campos Sales",
+        "year": 1991,
+        "class": "L5",
+        "mass": 23680
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.16667,
+          -7.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Çanakkale",
+        "year": 1964,
+        "class": "L6",
+        "mass": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6,
+          39.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canon City",
+        "year": 1973,
+        "class": "H6",
+        "mass": 1400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.24139,
+          38.47028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carancas",
+        "year": 2007,
+        "class": "H4-5",
+        "mass": 342
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.04389,
+          -16.66444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ceniceros",
+        "year": 1988,
+        "class": "L3.7",
+        "mass": 1025
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.23333,
+          26.46667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centerville",
+        "year": 1956,
+        "class": "H5",
+        "mass": 45.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.91667,
+          43.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chadong",
+        "year": 1998,
+        "class": "L6",
+        "mass": 3700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.31667,
+          28.53333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Changde",
+        "year": 1977,
+        "class": "H5",
+        "mass": 1810
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.75,
+          29.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chela",
+        "year": 1988,
+        "class": "H4",
+        "mass": 2936
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          -3.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chelyabinsk",
+        "year": 2013,
+        "class": "LL5",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.11667,
+          54.81667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chergach",
+        "year": 2007,
+        "class": "H5",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.01472,
+          23.69639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chernyi Bor",
+        "year": 1964,
+        "class": "H4",
+        "mass": 6000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1,
+          53.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chiang Khan",
+        "year": 1981,
+        "class": "H6",
+        "mass": 367
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63333,
+          17.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chisenga",
+        "year": 1988,
+        "class": "Iron, IIIAB",
+        "mass": 3920
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.395,
+          -10.05944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chitado",
+        "year": 1966,
+        "class": "L6",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.96667,
+          -17.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chitenay",
+        "year": 1978,
+        "class": "L6",
+        "mass": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.97667,
+          47.47083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cilimus",
+        "year": 1979,
+        "class": "L5",
+        "mass": 1600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1,
+          -6.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Claxton",
+        "year": 1984,
+        "class": "L6",
+        "mass": 1455
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.87278,
+          32.1025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coleman",
+        "year": 1994,
+        "class": "L6",
+        "mass": 469
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50778,
+          43.76111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conquista",
+        "year": 1965,
+        "class": "H4",
+        "mass": 20350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.55,
+          -19.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dahmani",
+        "year": 1981,
+        "class": "LL6",
+        "mass": 18000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.83333,
+          35.61667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dashoguz",
+        "year": 1998,
+        "class": "H5",
+        "mass": 7000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.685,
+          41.98444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Daule",
+        "year": 2008,
+        "class": "L5",
+        "mass": 6580
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.95756,
+          -1.87089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver",
+        "year": 1967,
+        "class": "L6",
+        "mass": 230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.93056,
+          39.7825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dergaon",
+        "year": 2001,
+        "class": "H5",
+        "mass": 12500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.86667,
+          26.68333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desuri",
+        "year": 1962,
+        "class": "H6",
+        "mass": 25400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.61667,
+          25.73333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devgaon",
+        "year": 2001,
+        "class": "H3.8",
+        "mass": 12000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81,
+          19
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devri-Khera",
+        "year": 1994,
+        "class": "L6",
+        "mass": 1140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.525,
+          24.225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhajala",
+        "year": 1976,
+        "class": "H3.8",
+        "mass": 45000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.42722,
+          22.37778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Didim",
+        "year": 2007,
+        "class": "H3-5",
+        "mass": 3396
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.32997,
+          37.35172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Distrito Quebracho",
+        "year": 1957,
+        "class": "H4",
+        "mass": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.46667,
+          -31.88333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djermaia",
+        "year": 1961,
+        "class": "H",
+        "mass": 3950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.05,
+          12.73333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djoumine",
+        "year": 1999,
+        "class": "H5-6",
+        "mass": 10000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.55,
+          36.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dong Ujimqin Qi",
+        "year": 1995,
+        "class": "Mesosiderite",
+        "mass": 128800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.03333,
+          45.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dongtai",
+        "year": 1970,
+        "class": "LL6",
+        "mass": 5500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.78333,
+          32.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dosso",
+        "year": 1962,
+        "class": "L6",
+        "mass": 1250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.16667,
+          13.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dowa",
+        "year": 1976,
+        "class": "Stone-uncl",
+        "mass": 642
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.91667,
+          -13.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dubrovnik",
+        "year": 1951,
+        "class": "L3-6",
+        "mass": 1900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.44167,
+          42.45833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dunbogan",
+        "year": 1999,
+        "class": "L6",
+        "mass": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.83333,
+          -31.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dunhua",
+        "year": 1976,
+        "class": "Stone-uncl",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.25,
+          43.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Duwun",
+        "year": 1943,
+        "class": "L6",
+        "mass": 2117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.26667,
+          33.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dwaleni",
+        "year": 1970,
+        "class": "H4-6",
+        "mass": 3230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.31667,
+          -27.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eagle",
+        "year": 1947,
+        "class": "EL6",
+        "mass": 10000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.47167,
+          40.78167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ehole",
+        "year": 1961,
+        "class": "H5",
+        "mass": 2400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.83333,
+          -17.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Idrissia",
+        "year": 1989,
+        "class": "L6",
+        "mass": 10000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.25,
+          34.41667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Paso de Aguila",
+        "year": 1977,
+        "class": "H5",
+        "mass": 17226
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37,
+          25.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Tigre",
+        "year": 1993,
+        "class": "L6",
+        "mass": 5000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.05167,
+          19.96722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elbert",
+        "year": 1998,
+        "class": "LL6",
+        "mass": 680.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.58817,
+          39.24667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elenovka",
+        "year": 1951,
+        "class": "L5",
+        "mass": 54640
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66667,
+          47.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enshi",
+        "year": 1974,
+        "class": "H5",
+        "mass": 8000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.5,
+          30.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erakot",
+        "year": 1940,
+        "class": "CM2",
+        "mass": 113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.89167,
+          19.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Essebi",
+        "year": 1957,
+        "class": "C2-ung",
+        "mass": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.83333,
+          2.88333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fermo",
+        "year": 1996,
+        "class": "H3-5",
+        "mass": 10200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75333,
+          43.18111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forest Vale",
+        "year": 1942,
+        "class": "H4",
+        "mass": 26000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.85833,
+          -33.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Flatters",
+        "year": 1944,
+        "class": "Stone-uncl",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7,
+          28.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuhe",
+        "year": 1945,
+        "class": "L5",
+        "mass": 23000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.56694,
+          31.47556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuyang",
+        "year": 1977,
+        "class": "Stone-uncl",
+        "mass": 2500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9,
+          32.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galim (a)",
+        "year": 1952,
+        "class": "LL6",
+        "mass": 36.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.43333,
+          7.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galim (b)",
+        "year": 1952,
+        "class": "EH3/4-an",
+        "mass": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.43333,
+          7.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galkiv",
+        "year": 1995,
+        "class": "H4",
+        "mass": 5000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.78333,
+          51.68333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gao-Guenie",
+        "year": 1960,
+        "class": "H5",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.18333,
+          11.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garland",
+        "year": 1950,
+        "class": "Diogenite-pm",
+        "mass": 102
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.13333,
+          41.68333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gashua",
+        "year": 1984,
+        "class": "L6",
+        "mass": 4162
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.03333,
+          12.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gasseltepaoua",
+        "year": 2000,
+        "class": "H5",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.04167,
+          14.15083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Geidam",
+        "year": 1950,
+        "class": "H5",
+        "mass": 725
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.91667,
+          12.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Git-Git",
+        "year": 1947,
+        "class": "L6",
+        "mass": 480
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.91667,
+          9.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glanerbrug",
+        "year": 1990,
+        "class": "L/LL5",
+        "mass": 670
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.86667,
+          52.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glatton",
+        "year": 1991,
+        "class": "L6",
+        "mass": 767
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3,
+          52.45972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gorlovka",
+        "year": 1974,
+        "class": "H3.7",
+        "mass": 3618
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.08333,
+          48.28333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Granes",
+        "year": 1964,
+        "class": "L6",
+        "mass": 9000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.25,
+          42.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grefsheim",
+        "year": 1976,
+        "class": "L5",
+        "mass": 45.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11,
+          60.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grimsby",
+        "year": 2009,
+        "class": "H5",
+        "mass": 215
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61667,
+          43.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guangmingshan",
+        "year": 1996,
+        "class": "H5",
+        "mass": 2910
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.76389,
+          39.80417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guangnan",
+        "year": 1983,
+        "class": "L6",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105,
+          24.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guangrao",
+        "year": 1980,
+        "class": "L6",
+        "mass": 1900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4,
+          37.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guibga",
+        "year": 1972,
+        "class": "L5",
+        "mass": 288
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.68333,
+          13.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guidder",
+        "year": 1949,
+        "class": "LL5",
+        "mass": 968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.98333,
+          9.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gujargaon",
+        "year": 1982,
+        "class": "H5",
+        "mass": 2449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.05,
+          22.98333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gujba",
+        "year": 1984,
+        "class": "CBa",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.65833,
+          11.49167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gursum",
+        "year": 1981,
+        "class": "H4/5",
+        "mass": 34650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.41667,
+          9.36667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hallingeberg",
+        "year": 1944,
+        "class": "L3.4",
+        "mass": 1456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.23333,
+          57.81667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamlet",
+        "year": 1959,
+        "class": "LL4",
+        "mass": 3710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6,
+          41.38333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harleton",
+        "year": 1961,
+        "class": "L6",
+        "mass": 8360
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.51167,
+          32.675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haverö",
+        "year": 1971,
+        "class": "Ureilite",
+        "mass": 1544
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.06194,
+          60.24556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hiroshima",
+        "year": 2003,
+        "class": "H5",
+        "mass": 414
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.38333,
+          34.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoima",
+        "year": 2003,
+        "class": "H6",
+        "mass": 167.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.47278,
+          1.345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hökmark",
+        "year": 1954,
+        "class": "L4",
+        "mass": 305.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2,
+          64.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotse",
+        "year": 1956,
+        "class": "L6",
+        "mass": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5,
+          35.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoxie",
+        "year": 1963,
+        "class": "OC",
+        "mass": 266.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.45,
+          39.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huaxi",
+        "year": 2010,
+        "class": "H5",
+        "mass": 1600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.63241,
+          26.46469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ibitira",
+        "year": 1957,
+        "class": "Eucrite-mmict",
+        "mass": 2500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45,
+          -20
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ibrisim",
+        "year": 1949,
+        "class": "OC",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35,
+          38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Idutywa",
+        "year": 1956,
+        "class": "H5",
+        "mass": 3457
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.33333,
+          -32.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iguaracu",
+        "year": 1977,
+        "class": "H5",
+        "mass": 1200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.83333,
+          -23.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ijopega",
+        "year": 1975,
+        "class": "H6",
+        "mass": 7330
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36667,
+          -6.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Inner Mongolia",
+        "year": 1963,
+        "class": "L6",
+        "mass": 3000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112,
+          41
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Innisfree",
+        "year": 1977,
+        "class": "L5",
+        "mass": 4576
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3375,
+          53.415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ipiranga",
+        "year": 1972,
+        "class": "H6",
+        "mass": 7000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5,
+          -25.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ishinga",
+        "year": 1954,
+        "class": "H",
+        "mass": 1300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8,
+          -8.93333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Itqiy",
+        "year": 1990,
+        "class": "EH7-an",
+        "mass": 4720
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.95217,
+          26.59083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jalanash",
+        "year": 1990,
+        "class": "Ureilite",
+        "mass": 700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jartai",
+        "year": 1979,
+        "class": "L6",
+        "mass": 20500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8,
+          39.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jesenice",
+        "year": 2009,
+        "class": "L6",
+        "mass": 3667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.05217,
+          46.42137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jiange",
+        "year": 1964,
+        "class": "H5",
+        "mass": 222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.91667,
+          31.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jilin",
+        "year": 1976,
+        "class": "H5",
+        "mass": 4000000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.16667,
+          44.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jodiya",
+        "year": 2006,
+        "class": "L5",
+        "mass": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.31333,
+          22.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jolomba",
+        "year": 1974,
+        "class": "LL6",
+        "mass": 483
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.83333,
+          -11.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juancheng",
+        "year": 1997,
+        "class": "H5",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.41667,
+          35.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jumapalo",
+        "year": 1984,
+        "class": "L6",
+        "mass": 32490
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.2,
+          -7.71667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Junan",
+        "year": 1976,
+        "class": "L6",
+        "mass": 950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.8,
+          35.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juromenha",
+        "year": 1968,
+        "class": "Iron, IIIAB",
+        "mass": 25250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.27,
+          38.74028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kabo",
+        "year": 1971,
+        "class": "H4",
+        "mass": 13400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.21667,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaidun",
+        "year": 1980,
+        "class": "CR2",
+        "mass": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3,
+          15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalaba",
+        "year": 1951,
+        "class": "H4",
+        "mass": 950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5,
+          -6.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamalpur",
+        "year": 1942,
+        "class": "L6",
+        "mass": 2770
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.46667,
+          26.03333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kandahar (Afghanistan)",
+        "year": 1959,
+        "class": "L6",
+        "mass": 299
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.78333,
+          31.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kapoeta",
+        "year": 1942,
+        "class": "Howardite",
+        "mass": 11355
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          4.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaprada",
+        "year": 2004,
+        "class": "L5/6",
+        "mass": 1600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.22329,
+          20.33916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karatu",
+        "year": 1963,
+        "class": "LL6",
+        "mass": 2220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.58333,
+          -3.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karewar",
+        "year": 1949,
+        "class": "L6",
+        "mass": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.15,
+          12.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karloowala",
+        "year": 1955,
+        "class": "L6",
+        "mass": 2950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.6,
+          31.58333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kasauli",
+        "year": 2003,
+        "class": "H4",
+        "mass": 16820
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.58333,
+          29.58333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Katagum",
+        "year": 1999,
+        "class": "L6",
+        "mass": 1500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.08333,
+          11.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kavarpura",
+        "year": 2006,
+        "class": "Iron, IIE-an",
+        "mass": 6800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.81333,
+          25.14333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kayakent",
+        "year": 1961,
+        "class": "Iron, IIIAB",
+        "mass": 85000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.78,
+          39.26333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kediri",
+        "year": 1940,
+        "class": "L4",
+        "mass": 3300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.01667,
+          -7.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kemer",
+        "year": 2008,
+        "class": "L4",
+        "mass": 5760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.41822,
+          36.54194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kendrapara",
+        "year": 2003,
+        "class": "H4-5",
+        "mass": 6669.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.70278,
+          20.4625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kidairat",
+        "year": 1983,
+        "class": "H6",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28,
+          14
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiel",
+        "year": 1962,
+        "class": "L6",
+        "mass": 737.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.15,
+          54.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiffa",
+        "year": 1970,
+        "class": "H5",
+        "mass": 1500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.33333,
+          16.58333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kilabo",
+        "year": 2002,
+        "class": "LL6",
+        "mass": 19000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8,
+          12.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kingai",
+        "year": 1967,
+        "class": "H6",
+        "mass": 67.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.68333,
+          11.63333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kitchener",
+        "year": 1998,
+        "class": "L6",
+        "mass": 202.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.38333,
+          43.38333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kobe",
+        "year": 1999,
+        "class": "CK4",
+        "mass": 136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.16667,
+          34.73333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kokubunji",
+        "year": 1986,
+        "class": "L6",
+        "mass": 11510
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.95,
+          34.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Košice",
+        "year": 2010,
+        "class": "H5",
+        "mass": 4300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.17633,
+          48.76367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krasnyi Klyuch",
+        "year": 1946,
+        "class": "H5",
+        "mass": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.08333,
+          54.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krymka",
+        "year": 1946,
+        "class": "LL3.2",
+        "mass": 50000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.76667,
+          47.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kulak",
+        "year": 1961,
+        "class": "L5",
+        "mass": 453.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.80222,
+          30.73111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kunashak",
+        "year": 1949,
+        "class": "L6",
+        "mass": 200000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.36667,
+          55.78333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kunya-Urgench",
+        "year": 1998,
+        "class": "H5",
+        "mass": 1100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.2,
+          42.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kutais",
+        "year": 1977,
+        "class": "H5",
+        "mass": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.3,
+          44.51667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Criolla",
+        "year": 1985,
+        "class": "L6",
+        "mass": 45000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.16667,
+          -31.23333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lahrauli",
+        "year": 1955,
+        "class": "Ureilite",
+        "mass": 900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.71667,
+          26.78333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Långhalsen",
+        "year": 1947,
+        "class": "L6",
+        "mass": 2300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.73333,
+          58.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lanxi",
+        "year": 1986,
+        "class": "L6",
+        "mass": 1282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.19611,
+          46.24167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laochenzhen",
+        "year": 1987,
+        "class": "H5",
+        "mass": 14250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.16667,
+          33.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leedey",
+        "year": 1943,
+        "class": "L6",
+        "mass": 51500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.33333,
+          35.88333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leighlinbridge",
+        "year": 1999,
+        "class": "L6",
+        "mass": 271.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.96667,
+          52.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lichtenberg",
+        "year": 1973,
+        "class": "H6",
+        "mass": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.18333,
+          -26.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lishui",
+        "year": 1978,
+        "class": "L5",
+        "mass": 498
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.98333,
+          31.63333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lohawat",
+        "year": 1994,
+        "class": "Howardite",
+        "mass": 40000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.62667,
+          26.96556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lorton",
+        "year": 2010,
+        "class": "L6",
+        "mass": 329.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.21163,
+          38.70066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lost City",
+        "year": 1970,
+        "class": "H5",
+        "mass": 17000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.15,
+          36.00833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Louisville",
+        "year": 1977,
+        "class": "L6",
+        "mass": 1300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.75,
+          38.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lunan",
+        "year": 1980,
+        "class": "H6",
+        "mass": 2520
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3,
+          24.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lusaka",
+        "year": 1951,
+        "class": "Unknown",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.43333,
+          -7.21667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Machinga",
+        "year": 1981,
+        "class": "L6",
+        "mass": 93200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.24222,
+          -15.21222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madhipura",
+        "year": 1950,
+        "class": "L",
+        "mass": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.36667,
+          25.91667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mafra",
+        "year": 1941,
+        "class": "L3-4",
+        "mass": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.93333,
+          -26.16667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Magombedze",
+        "year": 1990,
+        "class": "H3-5",
+        "mass": 666.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.65,
+          -19.48333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mahadevpur",
+        "year": 2007,
+        "class": "H4/5",
+        "mass": 70500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.78333,
+          27.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maigatari-Danduma",
+        "year": 2004,
+        "class": "H5/6",
+        "mass": 4629
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.38333,
+          12.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malakal",
+        "year": 1970,
+        "class": "L5",
+        "mass": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.75,
+          9.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manych",
+        "year": 1951,
+        "class": "LL3.4",
+        "mass": 3555
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.63333,
+          45.81667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mardan",
+        "year": 1948,
+        "class": "H5",
+        "mass": 4500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.08333,
+          34.23333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maribo",
+        "year": 2009,
+        "class": "CM2",
+        "mass": 25.81
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.46745,
+          54.76183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maridi",
+        "year": 1941,
+        "class": "H6",
+        "mass": 3200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          4.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marilia",
+        "year": 1971,
+        "class": "H4",
+        "mass": 2500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.93333,
+          -22.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maromandia",
+        "year": 2002,
+        "class": "L6",
+        "mass": 6000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.1,
+          -14.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryville",
+        "year": 1983,
+        "class": "L6",
+        "mass": 1443
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1,
+          35.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mason Gully",
+        "year": 2010,
+        "class": "H5",
+        "mass": 24.54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mayo Belwa",
+        "year": 1974,
+        "class": "Aubrite",
+        "mass": 4850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.08333,
+          8.96667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maziba",
+        "year": 1942,
+        "class": "L6",
+        "mass": 4975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30,
+          -1.21667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mbale",
+        "year": 1992,
+        "class": "L5/6",
+        "mass": 150000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.16667,
+          1.06667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medanitos",
+        "year": 1953,
+        "class": "Eucrite-cm",
+        "mass": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.5,
+          -27.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meru",
+        "year": 1945,
+        "class": "LL6",
+        "mass": 6000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66667,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Messina",
+        "year": 1955,
+        "class": "L5",
+        "mass": 2405
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.56667,
+          38.18333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mezel",
+        "year": 1949,
+        "class": "L6",
+        "mass": 1300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.25,
+          45.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mianchi",
+        "year": 1980,
+        "class": "H5",
+        "mass": 1100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7,
+          34.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mifflin",
+        "year": 2010,
+        "class": "L5",
+        "mass": 3584
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.36556,
+          42.9075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mihonoseki",
+        "year": 1992,
+        "class": "L6",
+        "mass": 6380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.22,
+          35.56833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mike",
+        "year": 1944,
+        "class": "L6",
+        "mass": 224.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.53333,
+          46.23333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Millbillillie",
+        "year": 1960,
+        "class": "Eucrite-mmict",
+        "mass": 330000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36667,
+          -26.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Min-Fan-Zhun",
+        "year": 1952,
+        "class": "LL6",
+        "mass": 5500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.66667,
+          32.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Molteno",
+        "year": 1953,
+        "class": "Howardite",
+        "mass": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.46667,
+          -31.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monahans (1998)",
+        "year": 1998,
+        "class": "H5",
+        "mass": 2587
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.85833,
+          31.60833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monte das Fortes",
+        "year": 1950,
+        "class": "L5",
+        "mass": 4885
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.25,
+          38.01667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monze",
+        "year": 1950,
+        "class": "L6",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.35,
+          -15.96667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morávka",
+        "year": 2000,
+        "class": "H5",
+        "mass": 633
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.53333,
+          49.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moss",
+        "year": 2006,
+        "class": "CO3.6",
+        "mass": 3763
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7,
+          59.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Tazerzait",
+        "year": 1991,
+        "class": "L5",
+        "mass": 110000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8,
+          18.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mtola",
+        "year": 1944,
+        "class": "Stone-uncl",
+        "mass": 1100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5,
+          -11.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murchison",
+        "year": 1969,
+        "class": "CM2",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2,
+          -36.61667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murray",
+        "year": 1950,
+        "class": "CM2",
+        "mass": 12600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1,
+          36.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzaffarpur",
+        "year": 1964,
+        "class": "Iron, IAB-sHL",
+        "mass": 1245
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.53333,
+          26.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nadiabondi",
+        "year": 1956,
+        "class": "H5",
+        "mass": 8165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1,
+          12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nantong",
+        "year": 1984,
+        "class": "H6",
+        "mass": 529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8,
+          32.11667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naragh",
+        "year": 1974,
+        "class": "H6",
+        "mass": 2700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5,
+          33.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Natal",
+        "year": 1973,
+        "class": "Stone-uncl",
+        "mass": 1.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neagari",
+        "year": 1995,
+        "class": "L6",
+        "mass": 420
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.46528,
+          36.44917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nejo",
+        "year": 1970,
+        "class": "L6",
+        "mass": 2450
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33333,
+          9.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neuschwanstein",
+        "year": 2002,
+        "class": "EL6",
+        "mass": 6189
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.80833,
+          47.525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Halfa",
+        "year": 1994,
+        "class": "L4",
+        "mass": 12000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.68333,
+          15.36667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Orleans",
+        "year": 2003,
+        "class": "H5",
+        "mass": 19256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.10976,
+          29.94718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niger (L6)",
+        "year": 1967,
+        "class": "L6",
+        "mass": 3.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niger (LL6)",
+        "year": 1967,
+        "class": "LL6",
+        "mass": 3.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nikolskoe",
+        "year": 1954,
+        "class": "L4",
+        "mass": 6000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.33333,
+          56.11667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ningbo",
+        "year": 1975,
+        "class": "Iron, IVA",
+        "mass": 14250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.48333,
+          29.86667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ningqiang",
+        "year": 1983,
+        "class": "C3-ung",
+        "mass": 4610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.90667,
+          32.925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noblesville",
+        "year": 1991,
+        "class": "H4-6",
+        "mass": 483.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.055,
+          40.08528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norton County",
+        "year": 1948,
+        "class": "Aubrite",
+        "mass": 1100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.86667,
+          39.68333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noventa Vicentina",
+        "year": 1971,
+        "class": "H4",
+        "mass": 177
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.52722,
+          45.29167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nuevo Mercurio",
+        "year": 1978,
+        "class": "H5",
+        "mass": 50000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.13333,
+          24.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ohuma",
+        "year": 1963,
+        "class": "L5",
+        "mass": 7700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5,
+          6.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Okabe",
+        "year": 1958,
+        "class": "H5",
+        "mass": 194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.21667,
+          36.18333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Omolon",
+        "year": 1981,
+        "class": "Pallasite, PMG",
+        "mass": 250000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.80833,
+          64.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orlando",
+        "year": 2004,
+        "class": "Eucrite",
+        "mass": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.36222,
+          28.5475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ouadangou",
+        "year": 2003,
+        "class": "L5",
+        "mass": 4440
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08,
+          12.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oued el Hadjar",
+        "year": 1986,
+        "class": "LL6",
+        "mass": 1215.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.57717,
+          30.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oum Dreyga",
+        "year": 2003,
+        "class": "H3-5",
+        "mass": 17000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.1,
+          24.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ourique",
+        "year": 1998,
+        "class": "H4",
+        "mass": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.28,
+          37.60833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palca de Aparzo",
+        "year": 1988,
+        "class": "L5",
+        "mass": 1430
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1,
+          -23.11667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palolo Valley",
+        "year": 1949,
+        "class": "H5",
+        "mass": 682
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.78333,
+          21.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parambu",
+        "year": 1967,
+        "class": "LL5",
+        "mass": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.7,
+          -6.23333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paranaiba",
+        "year": 1956,
+        "class": "L6",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.66667,
+          -19.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Forest",
+        "year": 2003,
+        "class": "L5",
+        "mass": 18000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.67917,
+          41.48472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parsa",
+        "year": 1942,
+        "class": "EH3",
+        "mass": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4,
+          26.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patora",
+        "year": 1969,
+        "class": "H6",
+        "mass": 4375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.05,
+          20.93694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patrimonio",
+        "year": 1950,
+        "class": "L6",
+        "mass": 2121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.56667,
+          -19.53333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pavel",
+        "year": 1966,
+        "class": "H5",
+        "mass": 2968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.51667,
+          43.46667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pê",
+        "year": 1989,
+        "class": "L6",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.54217,
+          11.33367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peace River",
+        "year": 1963,
+        "class": "L6",
+        "mass": 45760
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.93333,
+          56.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peckelsheim",
+        "year": 1953,
+        "class": "Diogenite-pm",
+        "mass": 117.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.25,
+          51.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peekskill",
+        "year": 1992,
+        "class": "H6",
+        "mass": 12570
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91667,
+          41.28333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peña Blanca Spring",
+        "year": 1946,
+        "class": "Aubrite",
+        "mass": 70000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.11667,
+          30.125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pétèlkolé",
+        "year": 1995,
+        "class": "H5",
+        "mass": 189
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.42,
+          14.052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phuoc-Binh",
+        "year": 1941,
+        "class": "L5",
+        "mass": 11000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1,
+          15.71667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piancaldoli",
+        "year": 1968,
+        "class": "LL3.4",
+        "mass": 13.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.50222,
+          44.24417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piplia Kalan",
+        "year": 1996,
+        "class": "Eucrite-mmict",
+        "mass": 42000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.94167,
+          26.03472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pleşcoi",
+        "year": 2008,
+        "class": "L5-6",
+        "mass": 6913
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.70972,
+          45.275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pollen",
+        "year": 1942,
+        "class": "CM2",
+        "mass": 253.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.015,
+          66.34833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portales Valley",
+        "year": 1998,
+        "class": "H6",
+        "mass": 71400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.295,
+          34.175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pribram",
+        "year": 1959,
+        "class": "H5",
+        "mass": 5555
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.03333,
+          49.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puerto Lápice",
+        "year": 2007,
+        "class": "Eucrite-br",
+        "mass": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.51667,
+          39.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qidong",
+        "year": 1982,
+        "class": "L/LL5",
+        "mass": 1275
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5,
+          32.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qingzhen",
+        "year": 1976,
+        "class": "EH3",
+        "mass": 2600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.46667,
+          26.53333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quija",
+        "year": 1990,
+        "class": "H",
+        "mass": 17450
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.13333,
+          44.61667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raco",
+        "year": 1957,
+        "class": "H5",
+        "mass": 5000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.45,
+          -26.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raghunathpura",
+        "year": 1986,
+        "class": "Iron, IIAB",
+        "mass": 10200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.465,
+          27.72528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rahimyar Khan",
+        "year": 1983,
+        "class": "L5",
+        "mass": 67225
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.2,
+          28.225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramnagar",
+        "year": 1940,
+        "class": "L6",
+        "mass": 3766
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.9,
+          26.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramsdorf",
+        "year": 1958,
+        "class": "L6",
+        "mass": 4682
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.93333,
+          51.88333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ras Tanura",
+        "year": 1961,
+        "class": "H6",
+        "mass": 6.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.15,
+          26.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Red Canyon Lake",
+        "year": 2007,
+        "class": "H5",
+        "mass": 18.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.75812,
+          38.13742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reliegos",
+        "year": 1947,
+        "class": "L5",
+        "mass": 17300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.33333,
+          42.475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Revelstoke",
+        "year": 1965,
+        "class": "CI1",
+        "mass": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.95,
+          51.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richland Springs",
+        "year": 1980,
+        "class": "OC",
+        "mass": 1900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.03333,
+          31.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruhobobo",
+        "year": 1976,
+        "class": "L6",
+        "mass": 465.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.83333,
+          -1.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rupota",
+        "year": 1949,
+        "class": "L4-6",
+        "mass": 6000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76667,
+          -10.26667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sabrum",
+        "year": 1999,
+        "class": "LL6",
+        "mass": 478
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.66667,
+          23.08333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Séverin",
+        "year": 1966,
+        "class": "LL6",
+        "mass": 271000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23333,
+          45.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem",
+        "year": 1981,
+        "class": "L6",
+        "mass": 61.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.96944,
+          44.97917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salzwedel",
+        "year": 1985,
+        "class": "LL5",
+        "mass": 43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.05,
+          52.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Juan Capistrano",
+        "year": 1973,
+        "class": "H6",
+        "mass": 56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6625,
+          33.48472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Michele",
+        "year": 2002,
+        "class": "L6",
+        "mass": 237
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13,
+          43.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pedro de Quiles",
+        "year": 1956,
+        "class": "L6",
+        "mass": 282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4,
+          -31.01667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pedro Jacuaro",
+        "year": 1968,
+        "class": "LL6",
+        "mass": 460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.65,
+          19.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Lucia (2008)",
+        "year": 2008,
+        "class": "L6",
+        "mass": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.489444,
+          -31.535556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "São Jose do Rio Preto",
+        "year": 1962,
+        "class": "H4",
+        "mass": 927
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.38056,
+          -20.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sayama",
+        "year": 1986,
+        "class": "CM2",
+        "mass": 430
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4,
+          35.86667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schenectady",
+        "year": 1968,
+        "class": "H5",
+        "mass": 283.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95028,
+          42.86083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seldebourak",
+        "year": 1947,
+        "class": "H5",
+        "mass": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.98333,
+          22.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Semarkona",
+        "year": 1940,
+        "class": "LL3.00",
+        "mass": 691
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79,
+          22.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Senboku",
+        "year": 1993,
+        "class": "H6",
+        "mass": 866
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.51167,
+          39.43833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seoni",
+        "year": 1966,
+        "class": "H6",
+        "mass": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.50083,
+          21.68389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sfax",
+        "year": 1989,
+        "class": "L6",
+        "mass": 7000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.71667,
+          34.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sheyang",
+        "year": 1976,
+        "class": "L6",
+        "mass": 605
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.06667,
+          33.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shuangyang",
+        "year": 1971,
+        "class": "H5",
+        "mass": 3900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.66667,
+          43.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sikhote-Alin",
+        "year": 1947,
+        "class": "Iron, IIAB",
+        "mass": 23000000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.65333,
+          46.16
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silao",
+        "year": 1995,
+        "class": "H5",
+        "mass": 1710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.38333,
+          20.93333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinnai",
+        "year": 1956,
+        "class": "H6",
+        "mass": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2,
+          39.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sivas",
+        "year": 1989,
+        "class": "H6",
+        "mass": 40000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.13583,
+          39.82467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sixiangkou",
+        "year": 1989,
+        "class": "L5",
+        "mass": 630
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.86667,
+          32.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soheria",
+        "year": 1960,
+        "class": "OC",
+        "mass": 72.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.06667,
+          27.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sołtmany",
+        "year": 2011,
+        "class": "L6",
+        "mass": 1066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.005,
+          54.00883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Songyuan",
+        "year": 1993,
+        "class": "L6",
+        "mass": 36900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125,
+          45.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soroti",
+        "year": 1945,
+        "class": "Iron, ungrouped",
+        "mass": 2050
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.63333,
+          1.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Louis",
+        "year": 1950,
+        "class": "H4",
+        "mass": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.23333,
+          38.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St.-Chinian",
+        "year": 1959,
+        "class": "L6",
+        "mass": 134.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.95,
+          43.43333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ste. Marguerite",
+        "year": 1962,
+        "class": "H4",
+        "mass": 4960
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3,
+          50.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sterlitamak",
+        "year": 1990,
+        "class": "Iron, IIIAB",
+        "mass": 325000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.98333,
+          53.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stratford",
+        "year": 1974,
+        "class": "L6",
+        "mass": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.13333,
+          41.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St-Robert",
+        "year": 1994,
+        "class": "H5",
+        "mass": 25400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.97806,
+          45.96861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suchy Dul",
+        "year": 1969,
+        "class": "L6",
+        "mass": 815.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.26333,
+          50.53806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suizhou",
+        "year": 1986,
+        "class": "L6",
+        "mass": 260000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.46667,
+          31.61667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sulagiri",
+        "year": 2008,
+        "class": "LL6",
+        "mass": 110000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.03333,
+          12.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sutter's Mill",
+        "year": 2012,
+        "class": "C",
+        "mass": 992.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.90806,
+          38.80389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sylacauga",
+        "year": 1954,
+        "class": "H4",
+        "mass": 5560
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2945,
+          33.18836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tagish Lake",
+        "year": 2000,
+        "class": "C2-ung",
+        "mass": 10000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.20139,
+          59.70444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tahara",
+        "year": 1991,
+        "class": "H4/5",
+        "mass": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.305,
+          34.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talampaya",
+        "year": 1995,
+        "class": "Eucrite-cm",
+        "mass": 1421
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tambakwatu",
+        "year": 1975,
+        "class": "L6",
+        "mass": 10500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.76667,
+          -7.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamdakht",
+        "year": 2008,
+        "class": "H5",
+        "mass": 100000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.015,
+          31.16333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taonan",
+        "year": 1965,
+        "class": "L5",
+        "mass": 3850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9,
+          45.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tathlith",
+        "year": 1967,
+        "class": "L6",
+        "mass": 2500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.73333,
+          19.38333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thal",
+        "year": 1950,
+        "class": "H6",
+        "mass": 342
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.6,
+          33.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thika",
+        "year": 2011,
+        "class": "L6",
+        "mass": 14200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.15028,
+          -1.00278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thuathe",
+        "year": 2002,
+        "class": "H4/5",
+        "mass": 45300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.58333,
+          -29.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tianzhang",
+        "year": 1986,
+        "class": "H5",
+        "mass": 2232
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.99,
+          32.94667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tillaberi",
+        "year": 1970,
+        "class": "L6",
+        "mass": 3000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.53333,
+          14.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tissint",
+        "year": 2011,
+        "class": "Martian (shergottite)",
+        "mass": 7000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.61123,
+          29.48195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomiya",
+        "year": 1984,
+        "class": "H4/5",
+        "mass": 27.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.86556,
+          38.36667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torino",
+        "year": 1988,
+        "class": "H6",
+        "mass": 977
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.66667,
+          45.06667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torrington",
+        "year": 1944,
+        "class": "H6",
+        "mass": 259.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.16667,
+          42.06667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trebbin",
+        "year": 1988,
+        "class": "LL6",
+        "mass": 1250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.16667,
+          52.21667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tromøy",
+        "year": 1950,
+        "class": "H",
+        "mass": 357.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.86667,
+          58.47333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tsukuba",
+        "year": 1996,
+        "class": "H5-6",
+        "mass": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.145,
+          36.06333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tugalin-Bulen",
+        "year": 1967,
+        "class": "H6",
+        "mass": 10000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.38333,
+          45.46667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tulung Dzong",
+        "year": 1944,
+        "class": "Stone-uncl",
+        "mass": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.75,
+          30
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turtle Lake",
+        "year": 1996,
+        "class": "L5",
+        "mass": 89.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.05167,
+          45.34583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tuxtuac",
+        "year": 1975,
+        "class": "LL5",
+        "mass": 30000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.36667,
+          21.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ucera",
+        "year": 1970,
+        "class": "H5",
+        "mass": 4590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.85,
+          11.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uchkuduk",
+        "year": 1989,
+        "class": "L6",
+        "mass": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.51667,
+          41.76667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Udaipur",
+        "year": 1976,
+        "class": "H3",
+        "mass": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ufana",
+        "year": 1957,
+        "class": "EL6",
+        "mass": 189.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.35,
+          -4.26667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Umm Ruaba",
+        "year": 1966,
+        "class": "L5",
+        "mass": 1700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.21667,
+          13.46667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Undulung",
+        "year": 1986,
+        "class": "L4",
+        "mass": 113.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.76667,
+          66.13889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Usti Nad Orlici",
+        "year": 1963,
+        "class": "L6",
+        "mass": 1269
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.375,
+          49.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uzcudun",
+        "year": 1948,
+        "class": "L",
+        "mass": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.15,
+          -44.11667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valdavur",
+        "year": 1944,
+        "class": "H6",
+        "mass": 2799
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.75,
+          11.98333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valera",
+        "year": 1972,
+        "class": "L5",
+        "mass": 50000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.62833,
+          9.31667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Varre-Sai",
+        "year": 2010,
+        "class": "L5",
+        "mass": 2500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.73356,
+          -20.85001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vengerovo",
+        "year": 1950,
+        "class": "H5",
+        "mass": 10800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.26667,
+          56.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vetluga",
+        "year": 1949,
+        "class": "Eucrite-mmict",
+        "mass": 750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.8,
+          57.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Villalbeto de la Peña",
+        "year": 2004,
+        "class": "L6",
+        "mass": 3500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.66667,
+          42.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vilna",
+        "year": 1967,
+        "class": "L5",
+        "mass": 0.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.69167,
+          54.225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vissannapeta",
+        "year": 1997,
+        "class": "Eucrite-cm",
+        "mass": 1303.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.75,
+          16.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walters",
+        "year": 1946,
+        "class": "L6",
+        "mass": 28100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3,
+          34.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Werdama",
+        "year": 2006,
+        "class": "H5",
+        "mass": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.78713,
+          32.79732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wethersfield (1971)",
+        "year": 1971,
+        "class": "L6",
+        "mass": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.65,
+          41.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wethersfield (1982)",
+        "year": 1982,
+        "class": "L6",
+        "mass": 2756
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67361,
+          41.71056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whetstone Mountains",
+        "year": 2009,
+        "class": "H5",
+        "mass": 2138.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.434183,
+          31.96185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wiluna",
+        "year": 1967,
+        "class": "H5",
+        "mass": 150000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32833,
+          -26.59278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wolamo",
+        "year": 1964,
+        "class": "OC",
+        "mass": 166.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39,
+          9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woolgorong",
+        "year": 1960,
+        "class": "L6",
+        "mass": 36000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.83333,
+          -27.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Worden",
+        "year": 1997,
+        "class": "L5",
+        "mass": 1551
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6115,
+          42.38467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wuan",
+        "year": 1986,
+        "class": "H6",
+        "mass": 50000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25,
+          36.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xi Ujimgin",
+        "year": 1980,
+        "class": "L/LL6-an",
+        "mass": 5900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.5,
+          44.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xingyang",
+        "year": 1977,
+        "class": "H6",
+        "mass": 75500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31667,
+          32.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yafa",
+        "year": 2000,
+        "class": "H5",
+        "mass": 5700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.17,
+          13.71111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yambo",
+        "year": 1951,
+        "class": "H5",
+        "mass": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5,
+          1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yangchiang",
+        "year": 1954,
+        "class": "H5",
+        "mass": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.83333,
+          21.83333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yanzhuang",
+        "year": 1990,
+        "class": "H6",
+        "mass": 3500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.16667,
+          24.56667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yardymly",
+        "year": 1959,
+        "class": "Iron, IAB complex",
+        "mass": 150200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.25,
+          38.93333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zag",
+        "year": 1998,
+        "class": "H3-6",
+        "mass": 175000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.33333,
+          27.33333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zagami",
+        "year": 1962,
+        "class": "Martian (shergottite)",
+        "mass": 18000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.08333,
+          11.73333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zaisan",
+        "year": 1963,
+        "class": "H5",
+        "mass": 463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zaoyang",
+        "year": 1984,
+        "class": "H5",
+        "mass": 14250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.75,
+          32.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zavetnoe",
+        "year": 1952,
+        "class": "L6",
+        "mass": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.9,
+          47.13333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhaodong",
+        "year": 1984,
+        "class": "L4",
+        "mass": 42000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.91667,
+          45.81667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhuanghe",
+        "year": 1976,
+        "class": "H5",
+        "mass": 2900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.98333,
+          39.66667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zvonkov",
+        "year": 1955,
+        "class": "H6",
+        "mass": 2568
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.25,
+          50.2
+        ]
+      }
+    }
+  ]
+}
