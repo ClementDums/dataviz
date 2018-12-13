@@ -520,11 +520,11 @@ function axis(data){
         .attr("height", 2)
         .attr("width", function (d) {
             const coef = (Math.round(d[7]*1000)/1000)/30;
-            return coef*550;
+            return coef*550-25;
         })
         .attr("x", function (d) {
             const coef = (Math.round(d[7]*1000)/1000)/30;
-            return 550-(coef*550)
+            return 550-(coef*550)+25
         } )
         .attr("fill", "#fff")
         .attr("stroke","#fff")
@@ -547,6 +547,7 @@ function axis(data){
             });
         }
 
+        /***DOTTED LINES***/
     const dataX =[10,20,30];
     svg2.selectAll("dotted")
         .data(dataX)

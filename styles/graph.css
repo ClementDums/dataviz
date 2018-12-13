@@ -3,34 +3,44 @@
 #nearA{
     height: 100vh;
 }
-#nearA .wrapper{
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 50px;
+
+#nearA .flex{
+    height: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+#nearA .wrapper{
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
+    margin: 0 auto;
+    margin-left: 50px;
 }
 #nearA .wrapper .secondwrapper{
     display: flex;
-    width: 50%;
+    width: 40%;
     flex-direction: column;
 }
+#near .fp-tableCell
 #graph{
-    height: 70%;
+    height: 100%;
     width: 100%;
 
 
 }
-.description-graph{
-    width: 30%;
+
+.descri-control{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
+
 .domain{
     stroke: #fff;
 }
 
 .axeGraph{
-    margin-top: 60px;
     width: 100%;
     display: none;
 }
@@ -61,9 +71,8 @@
 }
 
 .control-dist-speed{
-    margin: 0 auto;
     width: 300px;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-size: 16px;
@@ -144,6 +153,8 @@
     font-family: 'Playfair Display', serif;
     color: #fff;
     margin-top: 50px;
+    width: 310px;
+    height: 400px;
 }
 .name-graph{
     font-weight: 900;
@@ -196,3 +207,4 @@
 .uakm{
     margin-top: 10px;
 }
+

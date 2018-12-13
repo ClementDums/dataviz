@@ -178,6 +178,7 @@ margin-left: 80px;
     width: 50px;
     margin-left: 20px;
     margin-bottom: 0;
+    height: 100%;
 }
 
 .find, .totalmass {
@@ -187,6 +188,7 @@ margin-left: 80px;
     color: #fff;
     font-size: 16px;
     display: flex;
+    justify-content: flex-end;
 }
 .find p,.totalmass p{
     width: 200px;
@@ -194,4 +196,6 @@ margin-left: 80px;
 
 .totalmass img{
     height: 60px;
+    width: 50px;
+    margin-left: 20px;
 }

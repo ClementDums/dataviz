@@ -2,11 +2,6 @@
 
 /***********/
 
-moment().format();
-
-
-
-
 
 /****PARALLAX SOURIS***/
 const scenes = [];

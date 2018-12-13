@@ -254,8 +254,6 @@ fill:#fff;
 }
 
 
-
-
 /***TRANSITION***/
 #transition-slide, #transition-slide2{
     height: 100vh;
@@ -269,15 +267,16 @@ fill:#fff;
     text-align: center;
     position: relative;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-transition p {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
-    padding-top: 10px;
-
 }
 .text-transition:last-of-type p{
     width: 70%;
@@ -378,6 +377,7 @@ fill:#fff;
     position: relative;
  }
 .footer p{
+    font-family: 'Playfair Display', serif;
     top: 100px;
     position: absolute;
     color: #fff;

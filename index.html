@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Certains astéroïdes appelés géocroiseurs passent à proximité de la Terre sans que nous nous en rendions compte.
+Ici vous pouvez voir leur distance et vitesse par rapport à la terre ainsi que la position de ceux qui se sont écrasés grâce aux données de la NASA."/>
+    <meta name="keywords"
+          content="aground, astéroide, comète, météorite, planète, décroissance, écrasé, géocroiseur, NEO"/>
     <title>Aground | drift in space</title>
     <link rel="icon" href="images/favicon.png"/>
     <!--myStyles-->
@@ -18,12 +22,11 @@
     <script src="http://d3js.org/d3.v4.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
     <script src="http://d3js.org/topojson.v0.min.js"></script>
-    <script src="node_modules/moment/min/moment-with-locales.min.js"></script>
-    <script src="versor.js"></script>
-
-
+    <script src="scripts/versor.js"></script>
 </head>
-<body class="noscroll">
+
+
+<body>
 <div id="infos">
     <img src="images/cancel.png" alt="" class="cancel">
     <div class="wrapper">
@@ -35,24 +38,30 @@
                 <p>Clément Dumas</p>
                 <p>Antoine Fouilloux</p>
             </div>
-            <img src="images/Gobelins_logo.svg" alt="logo Gobelins">
-            <img src="images/CCI.svg" alt="logo CCI">
+            <a href="https://www.gobelins.fr/"><img src="images/Gobelins_logo.svg" alt="logo Gobelins"></a>
+            <a href="http://www.formation-cci.fr/accueil"><img src="images/CCI.svg" alt="logo CCI"></a>
 
         </div>
         <hr>
         <p class="title">Sources</p>
         <div class="first-flex sources">
             <div>
-                <img src="images/cneos.png" alt="logo CNEOS">
-                <p>https://cneos.jpl.nasa.gov/ca/</p>
+                <a href="https://cneos.jpl.nasa.gov/ca/">
+                    <img class="cneos" src="images/cneos.png" alt="logo CNEOS">
+                    <p>https://cneos.jpl.nasa.gov/ca/</p>
+                </a>
             </div>
             <div>
-                <img src="images/NASA_logo.svg" alt="logo NASA">
-                <p>data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh</p>
+                <a href="data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh">
+
+                    <img src="images/NASA_logo.svg" alt="logo NASA">
+                    <p>data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh</p>
+                </a>
             </div>
         </div>
     </div>
 </div>
+
 <div class="background">
     <img id="grain" src="images/grain.jpg" alt="">
     <img src="images/info.svg" id="button-infos" alt="infos">
@@ -157,6 +166,8 @@
             </div>
 
         </div>
+
+        <!--TRANSITION 1 -->
         <div id="transition-slide" class="section">
             <div class="text-transition">
                 <p class="softtext"><span class="letter">C</span>omme <span class="currentA"></span>, chaque jour des
@@ -180,44 +191,53 @@
                 <p class="bigtext">Observe ceux qui voyagent à ses côtés !</p>
             </div>
         </div>
-        <div class="section" id="nearA">
-            <div class="wrapper">
-                <div class="controllers">
-                    <div>
-                        <div class="selector yesterday-selector"></div>
-                        <p>Hier</p></div>
-                    <div>
-                        <div class="selector active today-selector"></div>
-                        <p>Aujourd'hui</p></div>
-                    <div>
-                        <div class="selector tomorrow-selector"></div>
-                        <p>Demain</p></div>
-                </div>
-                <div class="secondwrapper">
 
-                    <div id="graph">
+
+        <!--GRAPH ASTEROID-->
+        <div class="section" id="nearA">
+            <div class="flex">
+                <div class="wrapper">
+                    <div class="controllers">
+                        <div>
+                            <div class="selector yesterday-selector"></div>
+                            <p>Hier</p></div>
+                        <div>
+                            <div class="selector active today-selector"></div>
+                            <p>Aujourd'hui</p></div>
+                        <div>
+                            <div class="selector tomorrow-selector"></div>
+                            <p>Demain</p></div>
+                    </div>
+                    <div class="secondwrapper">
+
+                        <div id="graph">
+
+                        </div>
+
 
                     </div>
+                    <div class="descri-control">
+                        <div class="description-graph">
 
+                            <p class="name-graph"></p>
+                            <p class="speed-graph"></p>
+                            <p class="date-graph"></p>
+                            <p class="dist-graph"></p>
+                            <p class="uakm"></p>
+                            <p class="no-content"></p>
 
+                        </div>
+                        <div class="control-dist-speed">
+                            <div class="distance-on"><span class="distance-button active"></span>Distance</div>
+                            <div class="speed-on"><span class="speed-button"></span>Vitesse</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="description-graph">
-
-                    <p class="name-graph"></p>
-                    <p class="speed-graph"></p>
-                    <p class="date-graph"></p>
-                    <p class="dist-graph"></p>
-                    <p class="uakm"></p>
-                    <p class="no-content"></p>
-
-                </div>
-
-            </div>
-            <div class="control-dist-speed">
-                <div class="distance-on"><span class="distance-button active"></span>Distance</div>
-                <div class="speed-on"><span class="speed-button"></span>Vitesse</div>
             </div>
         </div>
+
+        <!--TRANSITION 2-->
+
         <div id="transition-slide2" class="section">
             <div class="text-transition">
                 <p class="softtext"><span class="letter">M</span>alheureusement, tous n’ont pas la chance de pouvoir
@@ -225,7 +245,7 @@
                     comme <span class="randomA"></span>, tombé sur Terre <span class="randomY"></span>.</p>
             </div>
             <div class="images-transition">
-                <div class="scene" id="stars">
+                <div class="scene stars">
                     <img class="firststars" data-depth="0.05" src="images/petites_1.png" alt="">
                     <img class="midstars" data-depth="0.1" src="images/moyennes_1.png" alt="">
                     <img data-depth="0.15" src="images/grandes.png" alt="">
@@ -240,52 +260,59 @@
                 <p class="bigtext">Sauras-tu le retrouver ?</p>
             </div>
         </div>
+
+        <!--GLOBE CONTAINER-->
         <div class="globe-container section">
             <div>
-                <div class="wrapper">
-                    <div class="range">
-                        <div>
-                            <span>2013</span><input orient="vertical" type="range" class="range" value="2013" min="1940"
-                                                    max="2013" step="1"
-                                                    onchange="changeRange(this.value)"><span>1940</span>
+                <div>
+                    <div class="wrapper">
+                        <div class="range">
+                            <div>
+                                <span>2013</span><input orient="vertical" type="range" class="range" value="2013"
+                                                        min="1940"
+                                                        max="2013" step="1"
+                                                        onchange="changeRange(this.value)"><span>1940</span>
 
-
-                        </div>
-                    </div>
-                    <div class="globe-pos">
-                    </div>
-                    <div class="column">
-                        <div class="description">
-                            <p class="name"></p>
-                            <p class="mass"></p>
-                        </div>
-                        <div class="scales">
-                            <img src="images/legende.svg" alt="">
-                            <div class="find">
-                                <p>Retrouve l'astéroïde <span class="randomA"></span> tombé sur Terre <span
-                                        class="randomY"></span></p>
-                                <img class="loupe" src="images/loupe_icon.svg" alt="">
                             </div>
-                            <div class="totalmass"><p>En <span class="currentYear"></span>, plus de <span class="totalCount"></span> kg de météorites sont
-                                tombés sur Terre.</p>
-                                <img class="loupe" src="images/icon_mass.svg" alt=""></div>
+                        </div>
+                        <div class="globe-pos">
+                        </div>
+                        <div class="column">
+                            <div class="description">
+                                <p class="name"></p>
+                                <p class="mass"></p>
+                            </div>
+                            <div class="scales">
+                                <img src="images/legende.svg" alt="">
+                                <div class="find">
+                                    <p>Retrouve l'astéroïde <span class="randomA"></span> tombé sur Terre <span
+                                            class="randomY"></span></p>
+                                    <img class="loupe" src="images/loupe_icon.svg" alt="">
+                                </div>
+                                <div class="totalmass"><p>En <span class="currentYear"></span>, plus de <span
+                                        class="totalCount"></span> kg de météorites sont
+                                    tombés sur Terre.</p>
+                                    <img src="images/icon_mass.svg" alt=""></div>
+                            </div>
                         </div>
                     </div>
+                    <p id="rangeLabel">2013</p>
                 </div>
-                <p id="rangeLabel">2013</p>
             </div>
         </div>
+
+        <!--FOOTER-->
         <div class="footer section">
             <p><span class="currentA"></span> continue son voyage cosmique.<br>
                 Elle repassera sans doute par ici dans quelques siècles.</p>
-            <div class="scene" id="stars">
+            <div class="scene stars">
                 <img class="firststars" data-depth="0.05" src="images/petites_1.png" alt="">
                 <img class="midstars" data-depth="0.1" src="images/moyennes_1.png" alt="">
                 <img data-depth="0.15" src="images/grandes.png" alt="">
-                <img class="bigstar" src="images/bigstar.png" alt="">
-                <img class="earth" src="images/earth.png" alt="">
-                <img class="bigstar2" src="images/bigstar.png" alt="">
-                <img src="images/comete_fin.png" class="cometefin" alt="">
+                <img data-depth="0.2" class="bigstar" src="images/bigstar.png" alt="">
+                <img data-depth="0.15" class="earth" src="images/earth.png" alt="">
+                <img data-depth="0.20" class="bigstar2" src="images/bigstar.png" alt="">
+                <img data-depth="0.35" src="images/comete_fin.png" class="cometefin" alt="">
             </div>
         </div>
     </div>

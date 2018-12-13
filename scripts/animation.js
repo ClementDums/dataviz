@@ -106,17 +106,17 @@ function  text5() {
 document.querySelector("#button-infos").addEventListener("click",function () {
     const infos =document.querySelector("#infos");
     infos.classList.add("active");
-    TweenLite.to(infos, 0.5, {opacity: 1});
+    TweenLite.to(infos, 0.9, {opacity: 1});
     const background =document.querySelector(".background");
-    TweenLite.to(background, 0.5, {filter: "blur(15px)"});
+
 });
 
 document.querySelector(".cancel").addEventListener("click",function () {
     const infos =document.querySelector("#infos");
     infos.classList.remove("active");
-    TweenLite.to(infos, 0.5, {opacity: 0});
+    TweenLite.to(infos, 0.9, {opacity: 0});
     const background =document.querySelector(".background");
-    TweenLite.to(background, 0.5, {filter: "blur(0px)"});
+
 });
 
 

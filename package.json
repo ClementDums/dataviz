@@ -10,13 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "animejs": "^2.2.0",
-    "axios": "^0.18.0",
     "bootstrap-slider": "^10.3.2",
     "d3": "^5.7.0",
     "fullpage.js": "^3.0.4",
     "gsap": "^2.0.2",
-    "lottie-web": "^5.4.2",
-    "moment": "^2.22.2",
-    "scrollmagic": "^2.0.6"
+    "lottie-web": "^5.4.2"
   }
 }
