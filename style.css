@@ -46,7 +46,7 @@ body.noscroll{
 }
 
 .text-container{
-    z-index: 12;
+    z-index: 13;
     position: absolute;
     top: 0;
     height: 100%;
@@ -114,8 +114,13 @@ h1 {
     fill: #fff;
     width: 100%;
 }
+
+#scene{
+    height: 100%;
+}
 #scene img{
     width: 100%;
+    height: 100%;
 }
 .sound{
     width: 25px;
@@ -192,7 +197,7 @@ h1 {
     opacity: 1;
     position: absolute;
     width: 700px;
-    right: 300px;
+    right: 200px;
     top: 50px;
     animation: grain 0.5s steps(4) infinite;
 }
@@ -245,7 +250,7 @@ fill:#fff;
     position: absolute;
     left: 15px;
     z-index: 12;
-    bottom: 0;
+    bottom: -10px;
 
 }
 
@@ -480,3 +485,110 @@ fill:#fff;
     }
 }
 
+/***********MEDIAS*********/
+@media screen and (max-width: 1100px) {
+    #hair-container svg{
+        width: 60% !important;
+    }
+
+
+    /***TRANSITIONS***/
+    .text-transition .letter{
+        font-size: 65px;
+
+    }
+    .softtext{
+        font-size: 20px;
+    }
+    .text-transition .bigtext{
+        font-size: 36px;
+    }
+    /*****/
+}
+
+@media screen and (max-width: 900px) {
+    #hair-container svg{
+        width: 50% !important;
+    }
+
+    #meteor{
+        right: 50px;
+        width: 500px;
+    }
+    #title{
+        font-size:100px;
+    }
+    .texts p{
+        font-size: 28px;
+    }
+
+    /*****TRANSITION****/
+    .text-transition .bigtext{
+        font-size: 30px;
+    }
+    .softtext{
+        font-size: 18px;
+    }
+    .text-transition .letter {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #button-infos{
+        left: 30px;
+        top: 30px;
+    }
+    .sound{
+        top: 30px;
+        right: 30px;
+    }
+    #title{
+        font-size:80px;
+    }
+    #slogan{
+        font-size: 24px;
+    }
+    .texts p{
+        font-size: 20px;
+    }
+
+    /****TRANSITION***/
+    .text-transition p {
+        font-size: 16px;
+        width: 70%;
+    }
+    .text-transition .letter {
+        font-size: 35px;
+    }
+    .text-transition .bigtext {
+        font-size: 25px;
+        line-height: inherit;
+    }
+    .text-transition:last-of-type p {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #title{
+        font-size:50px;
+    }
+    #slogan{
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    .texts p{
+        font-size: 18px;
+    }
+    .texts-content{
+        width: 90%;
+    }
+
+    /******TRANSITION********/
+    .text-transition p {
+        width: 90%;
+        font-size: 14px;
+    }
+}

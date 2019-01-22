@@ -5,7 +5,7 @@
     <meta name="description" content="Certains astéroïdes appelés géocroiseurs passent à proximité de la Terre sans que nous nous en rendions compte.
 Ici vous pouvez voir leur distance et vitesse par rapport à la terre ainsi que la position de ceux qui se sont écrasés grâce aux données de la NASA."/>
     <meta name="keywords"
-          content="aground, astéroide, comète, météorite, planète, décroissance, écrasé, géocroiseur, NEO"/>
+          content="aground, astéroide, comète, météorite, planète, écrasé, géocroiseur, NEO"/>
     <title>Aground | drift in space</title>
     <link rel="icon" href="images/favicon.png"/>
     <!--myStyles-->
@@ -19,14 +19,14 @@ Ici vous pouvez voir leur distance et vitesse par rapport à la terre ainsi que 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
     <!---->
     <script src="node_modules/gsap/src/minified/TweenMax.min.js"></script>
-    <script src="http://d3js.org/d3.v4.min.js"></script>
-    <script src="http://d3js.org/queue.v1.min.js"></script>
-    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="node_modules/d3-v4/d3.v4.min.js"></script>
+    <script src="node_modules/d3-v4/queue.v1.min.js"></script>
+    <script src="node_modules/d3-v4/topojson.v0.min.js"></script>
     <script src="scripts/versor.js"></script>
 </head>
 
 
-<body>
+<body class="">
 <div id="infos">
     <img src="images/cancel.png" alt="" class="cancel">
     <div class="wrapper">
@@ -373,11 +373,13 @@ Ici vous pouvez voir leur distance et vitesse par rapport à la terre ainsi que 
 <script src="node_modules/parallax/parallax.min.js"></script>
 <script src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
 <script src="node_modules/d3-axis/dist/d3-axis.min.js"></script>
+<script src="node_modules/moment/moment.js"></script>
 
 <!--scripts-->
 <script src="scripts/globe.js"></script>
 <script src="scripts/globeRange.js"></script>
 <script src="scripts/graph.js"></script>
+<script src="scripts/disableScroll.js"></script>
 <script src="main.js"></script>
 <script src="scripts/animation.js"></script>
 <script src="scripts/randomAsteroid.js"></script>

@@ -19,15 +19,13 @@
 }
 #nearA .wrapper .secondwrapper{
     display: flex;
-    width: 40%;
+    width: 60%;
     flex-direction: column;
 }
-#near .fp-tableCell
+
 #graph{
     height: 100%;
     width: 100%;
-
-
 }
 
 .descri-control{
