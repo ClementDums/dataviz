@@ -1,4 +1,3 @@
-
 /****PARALLAX SOURIS***/
 const scenes = [];
 const scenesSelector = document.querySelectorAll('.scene');
@@ -20,6 +19,8 @@ const animData = {
     path: 'json/cheveux.json'
 };
 const anim = bodymovin.loadAnimation(animData);
+
+
 
 disableScroll();
 
@@ -57,7 +58,17 @@ document.getElementById('sound-off').addEventListener('click', () => {
 
 });
 const forest = new Audio('sounds/forest.mp3');
-forest.play();
+var playPromise = forest.play();
+
+if (playPromise !== undefined) {
+    playPromise.then(_ => {
+    })
+        .catch(error => {
+            // Auto-play was prevented
+            // Show paused UI.
+        });
+}
+
 const earth = new Audio('sounds/earth.mp3');
 
 forest.addEventListener('ended', function() {
@@ -69,7 +80,7 @@ earth.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
 }, false);
-
+//
 
 function enablefullpage() {
     new fullpage('#fullpage', {
@@ -89,6 +100,7 @@ function enablefullpage() {
                 const soundoff= document.querySelector("#sound-off");
                 if(soundoff.classList.contains("hidden")) {
                     forest.pause();
+
                     earth.play();
                 }
 

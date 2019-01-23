@@ -1,7 +1,6 @@
 /***API CALLS***/
 /***CURRENT ASTEROID API***/
 function getCurrentAsteroid(min,date){
-    console.log(date);
     const req = new XMLHttpRequest();
     req.onreadystatechange = function(event) {
         // XMLHttpRequest.DONE === 4
@@ -131,7 +130,6 @@ function initToday(){
 
     moment().locale('fr');
     let myDate= moment().format('YYYY-MM-DDTHH:mm:ss');
-    console.log(myDate)
 
     getCurrentAsteroid(nearAsteroid, myDate);
 
